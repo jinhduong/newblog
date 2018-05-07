@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <link rel="stylesheet" href="/css/dinify.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container is-desktop is-medium">
+        <section class="header">
+            <h1 class="name">
+                <a href="/">BLOGGER</a>
+            </h1>
+            <nav>
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li class="nav-{{ .Identifier }}">
+                        <a href="{{ .URL | absLangURL }}">{{ .Pre }}
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </section>
+        <section class="main">

@@ -1,0 +1,7 @@
+<main>
+    {{ range .Data.Pages }} {{ if eq .Type "blog"}}
+    <h2>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    {{ end }} {{ end }}
+</main>

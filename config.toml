@@ -1,0 +1,22 @@
+baseURL = "https://www.jinhduong.com"
+languageCode = "en-us"
+title = "jinhduong blog"
+theme = "dinify"
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+    [[menu.main]]
+        identifier = "archives"
+        name = "archives"
+        url = "/archives"
+    [[menu.main]]
+        identifier = "good blogs"
+        name = "good blogs"
+        url = "/good-blogs"
+
+[params]
+  github = "https://github.com/jinhduong"
+

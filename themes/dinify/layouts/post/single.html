@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<div class="content">
+    <div class="post-title">
+        <h1 class="page-heading">
+            {{.Title}}
+        </h1>
+        <span>{{ .Date.Format "Jan 2, 2006" }} - {{ .ReadingTime }} minutes read</span>
+    </div>
+    <div class="notification">
+        <h4>Table of content</h4>
+        {{ .TableOfContents }}
+    </div>
+    {{ .Content }}
+</div>
+{{ partial "footer.html" . }}

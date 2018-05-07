@@ -1,0 +1,106 @@
+.container {
+    padding: 2rem;
+}
+
+.content ul {
+    list-style: decimal;
+}
+
+.content ul ul {
+    list-style-type: lower-latin;
+}
+
+section.header {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+section.header a {
+    color: #666;
+}
+
+h1.name,
+h1.posts-title,
+h1.page-heading {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h1.name,
+h1.post-title {
+    font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif
+}
+
+h1.page-heading {
+    margin-bottom: 0rem;
+}
+
+h1.name {
+    font-size: 1.3em;
+}
+
+section.header {
+    font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif
+}
+
+section.header ul {
+    display: inline-flex;
+    color: #666;
+}
+
+section.header li {
+    font-size: 0.85em;
+    margin-right: 0.5em;
+    font-weight: 500;
+}
+
+ul.post li {
+    display: flex;
+}
+
+section.main span {
+    margin-right: 0.7em;
+    min-width: 6em;
+    text-align: right;
+}
+
+section.main {
+    color: #666;
+}
+
+section.icons {
+    margin-top: 3rem;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+    color: #333;
+}
+
+.content h1 {
+    font-size: 1.3em;
+}
+
+.content h2 {
+    font-size: 1.2em;
+}
+
+.content h3 {
+    font-size: 1.1em;
+}
+
+.content h4 {
+    font-size: 1em;
+}
+
+.content h5 {
+    font-size: 0.9em;
+}
+
+.post-title {
+    margin-bottom: 2em;
+}

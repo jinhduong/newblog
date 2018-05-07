@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<h1 class="posts-title">📚 LATEST POSTS</h1>
+<ul class="post">
+    {{ range .Data.Pages }} {{ if eq .Type "post"}}
+    <li>
+        <span>
+            <time>
+                {{ .Date.Format "Jan 2, 2006" }}
+            </time>
+        </span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }} {{ end }}
+</ul>
+{{ partial "footer.html" . }}

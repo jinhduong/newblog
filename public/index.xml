@@ -1,13 +1,186 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>/</link>
-    <description>Recent content on </description>
+    <title>jinhduong blog</title>
+    <link>https://www.jinhduong.com/</link>
+    <description>Recent content on jinhduong blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 May 2018 10:55:29 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jinhduong.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Viết một thư viện bằng javascript giống LINQ như thế nào?</title>
+      <link>https://www.jinhduong.com/post/thu-viet-mot-library-hoan-chinh-linq/</link>
+      <pubDate>Thu, 03 May 2018 10:55:29 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/thu-viet-mot-library-hoan-chinh-linq/</guid>
+      <description>Dạo gần đây mình có viết một thư viện bằng Typescript để mô phỏng lại linq bên .NET mình viết những khi có thời gian rảnh. Thì nếu bạn nào không làm nhiều về .NET cũng như không biết về linq thì các bạn có thể tham khảo ở đây https://msdn.microsoft.com/en-us/library/bb308959.aspx.
+Thật sự tới hiện tại nó chỉ tương đối là đủ dùng, với bản thân mình thì cảm thấy chưa thật ưng ý lắm vì còn nhiều vấn đề cần phải giải quyết nữa để nó trở nên tốt hơn.</description>
+    </item>
+    
+    <item>
+      <title>TypeScript thoáng qua</title>
+      <link>https://www.jinhduong.com/post/typescript-thoang-qua/</link>
+      <pubDate>Sun, 22 Apr 2018 22:49:24 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/typescript-thoang-qua/</guid>
+      <description>&lt;!-- ![typescript-homepage (Source: (https://www.typescriptlang.org)](https://i.imgur.com/TrmRvfu.png) --&gt;
+
+&lt;p&gt;Khi mình viết bài này rõ ràng thì &lt;code&gt;TypeScript&lt;/code&gt; không còn là một thư viện đang nổi lên nữa. mà nó đã là thư viện đứng đầu về &lt;code&gt;strong typing&lt;/code&gt; cho &lt;code&gt;JavaScript&lt;/code&gt;. Hiện giờ nó và &lt;code&gt;Flow&lt;/code&gt; của Facebook là 2 thư viện nổi tiếng nhất về strong typing cho Javascript. Nhưng có lẽ Microsoft với kinh nghiệm cùng ngôn ngữ &amp;lsquo;C#&amp;rsquo;,cái ngôn ngữ mà với mình nó là một ngôn ngữ &lt;strong&gt;đẹp, mạnh mẽ và khá chặt chẽ&lt;/strong&gt; đã đem lại thành công cho &lt;code&gt;TypeScript&lt;/code&gt;. Hiện nay rất nhiều thư viện đã và đang được viết mới hoặc viết lại bằng &lt;code&gt;TypeScript&lt;/code&gt; như &lt;code&gt;Angular&lt;/code&gt;, &lt;code&gt;Vue 3&lt;/code&gt;, &lt;code&gt;Aurelia&lt;/code&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bài toán sidebar cho front-end</title>
+      <link>https://www.jinhduong.com/post/sidebar-in-front-end-side/</link>
+      <pubDate>Tue, 17 Apr 2018 10:46:56 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/sidebar-in-front-end-side/</guid>
+      <description>&lt;p&gt;Dạo gần đây đa phần các dự án mới đều được viết bằng các framework SPA như React Vue hoặc là Angular, và một số thư viện khác nữa&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wappalyzer-extension xác định công nghệ webapp</title>
+      <link>https://www.jinhduong.com/post/wappalyzer-detect-cong-nghe/</link>
+      <pubDate>Tue, 03 Apr 2018 09:52:47 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/wappalyzer-detect-cong-nghe/</guid>
+      <description>Đây là một extension (có cả trên Chrome và Firefox) khá là hữu ích cho dev như chúng mình, nó giúp chúng ta biết được những &amp;ldquo;bí mật&amp;rdquo; công nghệ đằng sau của trang web mà chúng ta đang xem, nó đã giúp mình khá nhiều trong việc biết thêm những nền tảng công nghệ mới ví dụ như là Netlify, Heap, Intercom,&amp;hellip; cũng như khi thấy những trang web rất chạy rấy là good, tò mò xem nó đã được viết bằng những công nghệ nào React, Vue hay Angular hay đơn giản là js thuần&amp;hellip; cũng như xem nó được host trên server gì, các thư viện đang sử dụng là gì&amp;hellip; Từ những thứ mới mẻ đó chúng ta có thể học thêm nhiều thứ.</description>
+    </item>
+    
+    <item>
+      <title>Webpack series (ep3) - code splitting</title>
+      <link>https://www.jinhduong.com/post/webpack-series-code-splitting/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/webpack-series-code-splitting/</guid>
+      <description>Sorry mọi người vì lâu rồi mới lại viết phần tiếp theo của series webpack này, hoàn thành được bài này xong giống như thoát được vấn đề nút cổ chai vậy :D, chung quy là do lười qquá mà ra. Chủ đề của bài hôm nay là code splitting.
+Code splitting là gì? Code splitting có thể là một trong những feature thuyết phục nhất của Webpack, nó cho phép chúng ta chia nhỏ code ra nhiều bundle nhỏ hơn, những cái mà chúng ta có thể tải khi cần hoặc để tải song song.</description>
+    </item>
+    
+    <item>
+      <title>Use css file inside a component by AngularCLI/Webpack</title>
+      <link>https://www.jinhduong.com/post/use-css-file-inside-a-component-by-angularcli-webpack/</link>
+      <pubDate>Thu, 23 Nov 2017 21:57:15 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/use-css-file-inside-a-component-by-angularcli-webpack/</guid>
+      <description>I write this one because today when I looking for an editor library which already supported in Angular, after some searching I decided use ngx-quill. About Quill? it’s a quite famous editor library which used by Slack, Buffer… It also more modern and lightweight than CK Editor which is quite heavily.
+Back to ngx-quill, I read its documentation and example, I saw some library guide put CSS file inside root index.</description>
+    </item>
+    
+    <item>
+      <title>Handle Angular ReactiveForm validators</title>
+      <link>https://www.jinhduong.com/post/handle-angular-reactiveform-validators/</link>
+      <pubDate>Fri, 20 Oct 2017 22:04:17 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/handle-angular-reactiveform-validators/</guid>
+      <description>Sometimes we need to enable or disable the validators which are already have been initialize. Something like below
+ The problem here is after this.form.value.type has changed and the value is not equal 1 so the form validators will be change. We’ll be remove validation for house field and make the vadidation for apartment field.
+How can do that? Fortunately, Angular is provided to us two functions to do that in the run-time : - setValidators and setAsyncValidators - updateValueAndValidity</description>
+    </item>
+    
+    <item>
+      <title>Webpack series (ep2) - CSS Splitting - Tách css trong Webpack</title>
+      <link>https://www.jinhduong.com/post/webpack-co-ban-2/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/webpack-co-ban-2/</guid>
+      <description>Code splitting (chia nhỏ code) là một trong những tính năng làm nên tên tuổi của Webpack. Và với riêng bản thân mình thấy thì đây chính là tính năng có giá trị nhất của webpack.
+Code splitting là gì? Như cái tên của nó. Nó cho phép chung ta chia nhỏ code ra và chỉ thật tải và execute khi cần đến. Một ví dụ đơn giản là chúng ta sử dụng thư viện select2 cho dự án, thật ra bản thân select2 là 1 library khá nặng và đương nhiên đa phần các page trong dự án của bạn ko cần đến nó, chỉ một vài trang cần và Webpack sẽ detect được khi nào bạn cần và sẽ tách nó ra 1 file riêng để khi nào cần thì gọi.</description>
+    </item>
+    
+    <item>
+      <title>Webpack series -  giới thiệu từ cơ bản đến căng cơ :D</title>
+      <link>https://www.jinhduong.com/post/webpack-co-ban/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/webpack-co-ban/</guid>
+      <description>Với xu hướng lập trình mà business và phần lớn xử lý đều nằm ở tầng phía front-end với gánh nặng càng ngày càng đè lên vai chàng dũng sĩ javascript tội nghiệp, thì các công cụ hỗ trợ cho anh ấy (ahihi) như typing, task runner, test tools,&amp;hellip; tè le tà la hết, nói chung là không thể thiếu được với 1 front-end dev. Hôm nay mình muốn giới thiệu Webpack một module loader cho javascript một cách cơ bản nhất.</description>
+    </item>
+    
+    <item>
+      <title>Angular2 - Cải thiện tốc độ của một ứng dụng angular với lazyloading and preloading</title>
+      <link>https://www.jinhduong.com/post/angular2-cai-thien-performance/</link>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/angular2-cai-thien-performance/</guid>
+      <description>Giống như bất cứ một vấn đề gì? Ví dụ như chúng ta phải mua full một bộ dao từ lớn tới nhỏ, từ gọt trái cây cho đến chặt thịt chặt xương, sau đó mỗi khi có công việc gì chúng ta phải nhét hết bỏ bao đem hết đống đó đi để sử dụng.
+Cái hay ở đây là bất cứ làm việc gì chúng ta đều có dụng cụ phù hợp (1 loại dao nào đó trong bao) để xử lý.</description>
+    </item>
+    
+    <item>
+      <title>Javascript deep (ep1) - Event loop trong js compiler và cái setTimeout quái quỉ</title>
+      <link>https://www.jinhduong.com/post/js-loop-compiler/</link>
+      <pubDate>Wed, 01 Mar 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/js-loop-compiler/</guid>
+      <description>1.Hoàn cảnh Bạn đã bao giờ tự hỏi tại sao setTimeout(()=&amp;gt;{console.log(123)}, 0); được nhiều library sử dụng đến như thế? Nó là 1 kỹ thuật hay là 1 trick? Và tại sao timeout chỉ = 0 nhưng nó luôn luôn là đứa chạy cuối cùng vậy, 0 giây hiểu một cách phẳng não nhất chính là ngay tức thời cmn mà 😐. Bài này xuất phát từ câu hỏi của một thằng bạn chả biết làm javascript lâu chưa mà đi hỏi:</description>
+    </item>
+    
+    <item>
+      <title>Javascrip Tips - Những điều có thể hay trong JS (ep3)</title>
+      <link>https://www.jinhduong.com/post/js-tips-3/</link>
+      <pubDate>Sun, 26 Feb 2017 02:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/js-tips-3/</guid>
+      <description>Những điều có thể bạn đã biết hoặc chưa, những kinh nghiệm của mình chia sẽ khi lập trình Javascript (ep3). Các bạn có thể xem phần 2 tại đây
+1.Sử dụng Anonymously scope cho những đoạn code chỉ chạy một lần Với những đoạn code mà các bạn chỉ chạy một lần trong cả app (giống như các flugins của js hay tạo element gì gì đó rồi thôi&amp;hellip;) thì chúng ta nên wrap trong một anonymous function kín.</description>
+    </item>
+    
+    <item>
+      <title>Angular-CLI - Phát triển ứng dụng ng2 chưa bao giờ đơn giản hơn thế</title>
+      <link>https://www.jinhduong.com/post/angular-cli-simply-way-to-dev-ng2/</link>
+      <pubDate>Sat, 25 Feb 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/angular-cli-simply-way-to-dev-ng2/</guid>
+      <description>Angular CLI là gì? Angular CLI là gì? - Command line interface tool for Angular2. Được lấy cảm hứng từ Ember-CLI. Nó làm một tool cho những dự án về angular2 để hỗ trợ việc build môi trường để viêc phát triển một dự án angular2 nhanh chóng và dễ dàng hơn. Các chức năng của nó như là  :
+ Structure cho một dự án angular2 Các command line hỗ trợ việc tạo các loại data,class,&amp;hellip; trong angular2 (component,pipe,serive,directive,&amp;hellip;) Add sẵn các testing framework như karma, jasmine và e2e.</description>
+    </item>
+    
+    <item>
+      <title>Angular2 comunication (Component interaction)</title>
+      <link>https://www.jinhduong.com/post/angular2-comunication/</link>
+      <pubDate>Thu, 23 Feb 2017 01:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/angular2-comunication/</guid>
+      <description>Hiện tại mình đang làm một dự án về angular2 nên thành ra mình cũng muốn làm một chuỗi bài về angular2 cho những bạn nào đang muốn tìm hiểu về công nghệ này.
+Biết là bài này có thể sẽ chỉ dành cho những bạn ít nhiều đã làm về angular2 nhưng do hôm nay cũng làm rồi đụng đến nên mình chọn luôn chủ để này để bắt đầu luôn cho nóng :)</description>
+    </item>
+    
+    <item>
+      <title>Javascrip Tips - Những điều có thể hay trong JS (ep2)</title>
+      <link>https://www.jinhduong.com/post/js-tips-2/</link>
+      <pubDate>Thu, 09 Jun 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/js-tips-2/</guid>
+      <description>Những điều có thể bạn đã biết hoặc chưa, những kinh nghiệm của mình chia sẽ khi lập trình Javascript (ep2). Các bạn có thể xem phần 1 tại đây.
+Tạo 1 plugin bằng javascript hoặc xài jquery Cái này thì những bạn nào hay xài libary của javascript thì hay gặp cái này, thật ra cách tạo 1 cái plugin hay 1 component mà xài nhiều lần với các config khác nhau trong 1 dự án lớn thì khá là cần thiết cũng như code rõ ràng sạch đẹp, clearly, usable, maintainable,&amp;hellip; các kiểu.</description>
+    </item>
+    
+    <item>
+      <title>Javascrip Tips - Những điều có thể hay trong JS (ep1)</title>
+      <link>https://www.jinhduong.com/post/js-tips/</link>
+      <pubDate>Sun, 05 Jun 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/js-tips/</guid>
+      <description>Những điều có thể bạn đã biết hoặc chưa, những kinh nghiệm của mình chia sẽ khi lập trình javascript, mong nó có thể giúp ích cho các bạn đang lập trình ngôn ngữ này :D.
+Tránh lỗi khi dùng những default function của array Các default array function của javascript như map, forEach, filter,&amp;hellip; sẽ bị lỗi nếu như trường hợp array của bạn null hoặc undefined (vd: nhận dữ liệu từ server), nó khá nguy hiểm nếu bạn nào quên, khiến ứng dụng mình stop ngay lập tức.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Design Pattern - Namespace and Revealing Module Pattern, Scope and Closure</title>
+      <link>https://www.jinhduong.com/post/namespace-pattern/</link>
+      <pubDate>Thu, 14 Apr 2016 10:18:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/namespace-pattern/</guid>
+      <description>Giới thiệu  Trong javascript thì có rất nhiều mô hình thiết kế (design pattern) khác nhau, thật ra ai cũng biết là về bản chất Javascript sinh ra đã không phải là một ngôn ngữ chính thống, nó sinh ra ban đầu đơn thuần chỉ dành cho việc xử lý giao diện trên trên browser, bản thân nó không được thiết kế như là một ngôn ngữ lập trình thuần túy với kiểu dữ liệu, access modifiers (private, public, protected,&amp;hellip;), kế thừa, class,&amp;hellip;   Nhưng mà rồi theo thời gian công việc của client không đơn giản chỉ còn là vài dòng script lăng quăng chỉnh sửa 1 chút giao diện html từ server trả về (nói là lăng quăng nhưng thời đó nhìn code javascript mình đã nghĩ nó thật là siêu nhân @@, function lồng nhau búa xua nhìn thật rất là ảo diệu @_@, pro cmnr ) mà nó đã đảm đương rất nhiều công việc trong sự phát triển của ứng dụng web hiện nay, bây giờ nó có khắp mọi nơi, từ server đến client rồi tràn sang database,&amp;hellip; dễ dàng nhìn thấy nhất chính là lượng projects trên github, nơi mà dự án bằng javascript có số lượng áp đảo, những điều này làm mình chợt nhớ về câu nói nổi tiếng (nhưng đúng hay không thì do quan điểm mỗi người thôi !</description>
+    </item>
     
   </channel>
 </rss>

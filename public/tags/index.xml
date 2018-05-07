@@ -1,13 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on </description>
+    <title>Tags on jinhduong blog</title>
+    <link>https://www.jinhduong.com/tags/</link>
+    <description>Recent content in Tags on jinhduong blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Apr 2018 10:46:56 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jinhduong.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Angular</title>
+      <link>https://www.jinhduong.com/tags/angular/</link>
+      <pubDate>Tue, 17 Apr 2018 10:46:56 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular 2</title>
+      <link>https://www.jinhduong.com/tags/angular-2/</link>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/angular-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>En</title>
+      <link>https://www.jinhduong.com/tags/en/</link>
+      <pubDate>Thu, 23 Nov 2017 21:57:15 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/en/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extension</title>
+      <link>https://www.jinhduong.com/tags/extension/</link>
+      <pubDate>Tue, 03 Apr 2018 09:52:47 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://www.jinhduong.com/tags/javascript/</link>
+      <pubDate>Thu, 03 May 2018 10:55:29 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jstip</title>
+      <link>https://www.jinhduong.com/tags/jstip/</link>
+      <pubDate>Sun, 26 Feb 2017 02:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/jstip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linq</title>
+      <link>https://www.jinhduong.com/tags/linq/</link>
+      <pubDate>Thu, 03 May 2018 10:55:29 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/linq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sharing</title>
+      <link>https://www.jinhduong.com/tags/sharing/</link>
+      <pubDate>Tue, 17 Apr 2018 10:46:56 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/sharing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>https://www.jinhduong.com/tags/typescript/</link>
+      <pubDate>Thu, 03 May 2018 10:55:29 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webpack</title>
+      <link>https://www.jinhduong.com/tags/webpack/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jinhduong.com/tags/webpack/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

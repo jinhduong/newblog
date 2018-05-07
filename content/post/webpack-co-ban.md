@@ -1,5 +1,5 @@
 ---
-title:  "Webpack series -  giới thiệu từ cơ bản đến căng cơ :D"
+title:  Webpack series -  giới thiệu từ cơ bản đến căng cơ :D
 date:   2017-04-20 00:00:00
 tags:   
   - webpack
@@ -17,7 +17,7 @@ Với xu hướng lập trình mà business và phần lớn xử lý đều n�
 ![webpack](https://i.imgur.com/Aqpxd8i.png)
 *webpack với 26k stars*
 
-### Vậy Module loader là gì?
+# Vậy Module loader là gì?
 - Một cách đơn giản là ngày xưa chúng ta thường add những thư viện (3th parties) như `jquery, moment, select2, dtpicker,sticky,...` vào thẻ `script` để khi web load lên xong thì những thư viện này sẽ được `execute` và xử lý. Nhưng không còn như những ngày xưa chỉ vài dòng jquery là đủ dùng, sau này do việc code dưới front-end càng ngày càng phìng to nên việc quản lý code = javascript càng ngày càng tõ rõ sự quan trọng nên từ đó khái niệm `module loader` ra đời.
 
 - Có khá nhiều thư viện từ nhỏ đến to ra đời cho việc này: Tiny Loaders (curl, LABjs, almond), RequireJS, Browserify, SystemJs, **Webpack** và gần đây đang nổi lên là RollupJs (mình chưa xài thằng này nhưng nghe nói Facebook sử dụng thg này cho React :D).
@@ -26,7 +26,7 @@ Với xu hướng lập trình mà business và phần lớn xử lý đều n�
 
 Có ai đọc tới đây mà chưa thấy hiểu gì không? Hoặc chưa tiếp xúc với khái niệm `module loader` trong javascript bao giờ, thì xem qua ví dụ này sẽ chắc dễ hiểu hơn.
 
-### Ví dụ cơ bản
+# Ví dụ cơ bản
 
 Chúng ta sẽ có `2 file .js` 
 

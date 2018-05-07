@@ -193,7 +193,6 @@ var modelClass = {};
 > Chúng ta thấy class sẽ được biên dịch thành một `function object` còn `interface` thì không. Từ đó nó hạn chế được số lượng source code mà chúng ta sinh ra và từ đó giảm thiểu dung lượng ứng dụng 🤪
 
 Bài viết xin tạm dừng tại đây, vì `Typescript` cũng có khá là nhiều thứ hay ho, nhưng tóm gọn lại nó nằm trong khuôn khổ syntax nên các bạn có thể lên đây tham khảo (https://www.typescriptlang.org/docs/handbook/basic-types.html) thêm những như chi tiết hơn của nó.
-![Typescript handbook](https://i.imgur.com/HWRAUUc.png) 
 
 Các bài tới nếu về `Typescript` mình sẽ chia sẽ về những thứ linh tinh, hay ho về `Typescript` chứ không phải là giới thiệu về nó nữa.
 

@@ -5,6 +5,8 @@ tags:
     - javascript
 ---
 
+# Giới thiệu
+
 - Trong javascript thì có rất nhiều mô hình thiết kế (design pattern) khác nhau, thật ra ai cũng biết là về bản chất Javascript sinh ra đã không phải là một ngôn ngữ chính thống, nó sinh ra ban đầu đơn thuần chỉ dành cho việc xử lý giao diện trên trên browser, bản thân nó không được thiết kế như là một ngôn ngữ lập trình thuần túy với kiểu dữ liệu, access modifiers (private, public, protected,...), kế thừa, class,... 
 
 <!-- more -->
@@ -14,6 +16,8 @@ tags:
 >Tất cả các ứng dụng mà có thể viết bằng javascript cuối cùng cũng sẽ được viết bằng javascript.
 
 - Do đó khi khối lượng công việc dưới client càng ngày càng nhiều hơn, qui mô những file script ngày càng to lên cả về mặt số lượng lẫn độ phức tạp thì các developer bắt đầu áp dụng những mô hình lập trình để cho việc quản lý, bảo trì, mở rộng và phát triển,... trở nên dễ dàng và qui chuẩn hơn.
+
+# Namespace Pattern
 
 Xem xét đoạn code dưới đây
 ```js
@@ -112,7 +116,7 @@ item2['say'] = 'hello everybody';
 
 OK, thật ra Namespace là một mô hình khá cơ bản dễ hình dung, đơn giản dễ hiểu, dù nó có một chút khiếm khuyết như là nếu như biến lồng nhau quá nhiều sẽ gây chậm một chút khi truy xuất, là 1 public object nên các thành phần có thể bị thay đổi,...nhưng nó vẫn là 1 pattern đơn giản nhưng hiệu quả.
 
-### Revealing Module Pattern
+# Revealing Module Pattern
 Trước khi vào nội dung chính của pattern này, mình xin nói về phần access modifiers trong javascript cho bạn nào chưa biết hoặc chưa rõ, javascript không cung cấp những syntax như những ngôn ngữ lập trình truyền thống, nhưng trong javascript vẫn có thể định nghĩa được điều này, đó là khi chúng ta nhắc đến khái niệm **closure** (bao đóng), xem ví dụ dưới đây
 ```js
 function User(){

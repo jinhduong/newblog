@@ -2,4 +2,14 @@
 <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener">
     <img class="icon" src="/img/github.svg" alt="github" />
 </a>
+{{ end }} 
+{{ if .Site.Params.twitter }}
+<a href="{{ .Site.Params.twitter }}" target="_blank" rel="noopener">
+    <img class="icon" src="/img/twitter.svg" alt="twitter" />
+</a>
+{{ end }}
+{{ if .Site.Params.email }}
+<a href="mailto:{{ .Site.Params.email }}" target="_blank" rel="noopener">
+    <img class="icon" src="/img/email.svg" alt="email" />
+</a>
 {{ end }}

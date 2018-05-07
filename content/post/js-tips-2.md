@@ -1,7 +1,9 @@
 ---
-title:  "Javascrip Tips - Những điều có thể hay trong JS (ep2)"
+title:  Javascrip Tips - Những điều có thể hay trong JS (ep2)
 date:   2016-06-09 01:00:00
-tags:   ["javascript","jstip"]
+tags:   
+    - javascript
+    - jstip
 ---
 
 <!-- ![Imgur](http://i.imgur.com/nWiqhTN.png) -->
@@ -9,7 +11,7 @@ Những điều có thể bạn đã biết hoặc chưa, những kinh nghiệm 
 
 <!-- more -->
 
-### Tạo 1 plugin bằng javascript hoặc xài jquery 
+# Tạo 1 plugin bằng javascript hoặc xài jquery 
 Cái này thì những bạn nào hay xài libary của javascript thì hay gặp cái này, thật ra cách tạo 1 cái plugin hay 1 component mà xài nhiều lần với các config khác nhau trong 1 dự án lớn thì khá là cần thiết cũng như code rõ ràng sạch đẹp, clearly, usable, maintainable,... các kiểu. Mình sẽ code để tạo một plugin đơn giản cho việc tạo một grid đơn giản kiểu kiểu như **`kendo Grid`**. Mình sẽ viết một cách đơn giản nhất, tập trung để những bạn chưa biết format của một plugin hay component.Và cho cái nhìn sơ qua để dễ hiểu hơn.
 
 Thường thì một component sẽ có cách khai báo như này.
@@ -196,7 +198,7 @@ $('#grid').sTable({
 
 Thật ra nói về component grid thì nó là một trong những component lắm thứ nhất quả đất, nhiêu đây khá là cơ bản về nó, nhưng từ đây bạn có thể phát triển thêm tính năng cho nó, những tính năng hay ho có thể được tạo ra từ bạn. Nhiều khi cần một cái hàm tạo grid đơn giản thôi mà phải down những library to tướng dư thừa cũng ko đc hay lắm, đơn giản mà cứ nhỏ nhỏ vừa đủ xài và biết 100% về nó vẫn là phê hơn :D. Còn những feature lớn cần rất nhiều tính năng phức tạp viết lại tốn time thì cứ xài library nhé, hiểu thì modify lại ko có gì là khó cả ;).
 
-### Define Enum trong javascript (same same Flags in C#)
+# Define Enum trong javascript (same same Flags in C#)
 Đa số các bạn chắc đều biết kiểu **Enum** nhỉ, mình viết cái này lấy cảm hứng từ **[Flags]** bên C# khi đọc code của ai đó mà quên mất rồi :D. Thì trong lập trình có nhiều khi chúng ta cần kiểm tra hai chiều (Flags trong C# là 1 chiều nhé) ví dụ như là:
 ```js
 
@@ -259,7 +261,7 @@ Mình thêm một cái `object Foods` nữa là để thể hiện cái hàm `_e
 
 Và có một điều nữa là là object ko còn kết thừa bất kì một `prototype` nào nữa, nó là cái root của mọi thứ rầu ;).
 
-### .html() và array trong jQuery
+# .html() và array trong jQuery
 
 Không biết cái này nhiều bạn biết không nhỉ? Đọc trên documents của jQuery mình cũng ko thấy nói, chỉ thử thôi coi nó có support không thôi, trong đầu cũng nghỉ chắc nó phải support chứ nhỉ, cuối cùng thì nó có support :D.
 
@@ -285,7 +287,7 @@ $table.html([$thead, $tbody]);//thead sẽ được thêm trước tbody
 
 ```
 
-### Tạo một collection jQuery
+# Tạo một collection jQuery
 
 Từ một list data bạn có thể tạo ra danh sách các `jQuery object` bằng cách dùng hàm `map` của javascript. Nó cũng khá gọn gàng cho công việc tạo một list con, mình thấy nhiều bạn cộng chuỗi nhìn code không được đẹp lắm.
 

@@ -1,5 +1,5 @@
 ---
-title:  "Angular2 - Cải thiện tốc độ của một ứng dụng angular với lazyloading and preloading"
+title:  Angular2 - Cải thiện tốc độ của một ứng dụng angular với lazyloading and preloading
 date:   2017-03-25 00:00:00
 tags:   
   - angular 2
@@ -21,7 +21,7 @@ Hiện tại có rất nhiều library hõ trợ ta việc load thư viện như
 Hôm nay mình sẽ giới thiệu các bạn cách cải thiện tốc độ một dự án Angular2 với nhưng công cụ được Angular cung cấp.
 Mình sẽ gọi Angularv2 là Angular nhé. Và Angularv1 sẽ là AngularJS.
 
-### 1. App khi tải toàn bộ
+# App khi tải toàn bộ
 Cấu trúc một simple app của chúng ta sẽ là như thế này. Chúng ta sẽ có một trang `Home` và trang `Elements`. Trang Elements sẽ chứa hết tất cả các components của bootstrap [Bootstrap components](http://getbootstrap.com/components/). Đương nhiên trang Elements sẽ rất nặng, chủ đích đễ dễ thấy dự khác biệt sau khi áp dụng các kĩ thuật thôi ah. ahoho.
 
 **Đây là html của trang `Elements`** (nó nhiều quá nên mình chỉ up tấm hình tượng trưng - mình copy hết html của trang bootstrap components)
@@ -38,7 +38,7 @@ Mấu chốt ở đây trang `Elements` không được hiển thị lên khi ap
 
 Từ nhu cầu đó và rất vui là Angular đã cung cấp (từ bản rc5 thì phải lúc mình bắt đầu làm thì nó release rùi ^^) cho chúng ta feature `Lazy loading` một module bất kì. 
 
-### 2. Apply lazy load cho Element component
+# Apply lazy load cho Element component
 
 Đầu tiền chúng ta sẽ tách `Elements component` ra là một module riêng (Lưu ý: Một module có thể chứa một hoặc nhiều component nhé). Trong thực tế chúng ta nên module lại nhiều component cùng chung 1 chức năng. 
 
@@ -139,7 +139,7 @@ Nhưng việc này sẽ tạo ra một issue khác, đó chính là **khoảng t
 
 Từ đó => chúng ta không nên để người dùng phải nhất thiết phải click vào thì chúng ta mới tải và execute chúng. => Khái niệm **preload a module**.
 
-### 3. Áp dụng preload cho một module
+# Áp dụng preload cho một module
 
 Tiếp tục lại rất vui vì Angular đã support cho chúng ta làm việc này một cách thật đơn giản khi dùng chung với `lazyloading`.
 
@@ -223,7 +223,7 @@ Các bạn có thể xem với AOT complier và angular v4 mới release một a
 
 Hy vọng sẽ giúp ích cho những bạn đang làm việc `angular2`. Thanks hehe.
 
-### Tham khảo
+# Tham khảo
 [https://vsavkin.com/angular-router-preloading-modules-ba3c75e424cb](https://vsavkin.com/angular-router-preloading-modules-ba3c75e424cb)
 [https://angular.io/docs/ts/latest/cookbook/aot-compiler.html#!#aot-jit](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html#!#aot-jit)
 [https://angular-2-training-book.rangle.io/handout/modules/lazy-loading-module.html](https://angular-2-training-book.rangle.io/handout/modules/lazy-loading-module.html)

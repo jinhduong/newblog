@@ -1,16 +1,32 @@
 <html>
 
 <head>
+    <title>
+        {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+        {{ if eq $url "/" }}
+            {{ .Site.Title }}
+        {{ else }}
+            {{ .Title }}
+        {{ end }} - Dinh Duong
+    </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="jinhduong blog">
+    <meta name="keywords" content="jinhduong blog, dinh duong blog, javascript, developer">
+    <meta name="author" content="Dinh Duong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
-    <link rel="stylesheet" href="/css/dinify.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+    <link rel="stylesheet" href="/css/dinify.css">    
+    <link rel="stylesheet" href="/css/prism.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png">    
 </head>
 
 <body>
     <div class="container is-desktop is-medium">
         <section class="header">
             <h1 class="name">
-                <a href="/">BLOGGER</a>
+                <a href="/">DINH DUONG</a>
             </h1>
             <nav>
                 <ul>

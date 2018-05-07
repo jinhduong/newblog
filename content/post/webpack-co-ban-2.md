@@ -1,5 +1,5 @@
 ---
-title:  "Webpack series (ep2) - CSS Splitting - Tách css trong Webpack"
+title:  Webpack series (ep2) - CSS Splitting - Tách css trong Webpack
 date:   2017-04-21 00:00:00
 tags: 
     - webpack
@@ -12,10 +12,10 @@ tags:
 
 <link rel="image_src" href="https://i.imgur.com/iy9HXob.png">
 
-### Code splitting là gì?
+# Code splitting là gì?
 Như cái tên của nó. Nó cho phép chung ta chia nhỏ code ra và chỉ thật tải và execute khi cần đến. Một ví dụ đơn giản là chúng ta sử dụng thư viện `select2` cho dự án, thật ra bản thân `select2` là 1 library khá nặng và đương nhiên đa phần các page trong dự án của bạn ko cần đến nó, chỉ một vài trang cần và `Webpack` sẽ detect được khi nào bạn cần và sẽ tách nó ra 1 file riêng để khi nào cần thì gọi. Cái goal ở đây là ngoài việc chúng ta kiếm soát được việc **quản lý library** thì bên cạnh đó **perfomance cũng được cải thiện** ở browser thấy 1 thì ở mobile sự cải thiện sẽ rõ rệt hơn rất nhiều vì trên mobile phần cứng đa phần bị giới hạn hơn so với máy tính.
 
-### Các loại splitting
+# Các loại splitting
 
 Có 3 loại splitting gồm:
 
@@ -23,7 +23,7 @@ Có 3 loại splitting gồm:
 - [Libraries Splitting](https://webpack.js.org/guides/code-splitting-libraries/)
 - [Async code splitting](https://webpack.js.org/guides/code-splitting-async/)
 
-### CSS Splitting
+# CSS Splitting
 Để bundle file css bằng css thì chúng ta cũng chỉ cần `import` vào file `.js` giống như cách import 1 `module` bình thường.
 
 Ví dụ
@@ -273,7 +273,7 @@ Thì đây là cái chỗ mà nãy `webpack` bundle đống css của `bootstrap
 /***/ }),
 ````
 
-### Thắc mắc
+# Thắc mắc
 Tới đây có bạn sẽ hỏi, ủa vậy `css` chỉ được bundle là một file rồi chúng ta cũng phải insert vào `index.html` thôi mà. Cũng đâu thấy nó tách bạch file phiết gì ra đâu mà. Đúng là vậy, nên chúng ta cần chỉ cho `webpack` nơi nào là nơi để chúng split các `file css` ra. Thì `webpack` cung cấp cho ta 2 kiểu syntax để làm việc đó :
 
 **1. ở webpack version 1**

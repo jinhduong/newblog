@@ -1,7 +1,8 @@
 ---
-title:  "Angular2 comunication (Component interaction)"
+title:  Angular2 comunication (Component interaction)
 date:   2017-02-23 01:00:00
-tags:   ["angular"]
+tags:   
+  - angular
 ---
 <!-- ![angular2-comunication](http://i.imgur.com/QcGk7LOl.jpg) -->
 Hiện tại mình đang làm một dự án về angular2 nên thành ra mình cũng muốn làm một chuỗi bài về angular2 cho những bạn nào đang muốn tìm hiểu về công nghệ này.
@@ -21,7 +22,7 @@ Do đó cách giao tiếp giữa những components khá quan trọng trong bấ
 
 Các bạn có thể đọc bản hoàn chỉnh của angular2 team cung cấp ở trang chủ [Component interaction](https://angular.io/docs/ts/latest/cookbook/component-communication.html). Còn muốn dễ hiểu hơn thì đọc bài này của mình hehe <i class="em em-girl"></i>
 
-### 1. Pass data từ component cha (parent component) đến component con (child component) thông qua @Input
+# Pass data từ component cha (parent component) đến component con (child component) thông qua @Input
 
 
 Ờ cách này chúng ta sẽ define `binding decorator` `@Input` ở child sau đó truyền giá trị đó từ parent
@@ -65,7 +66,7 @@ export class AppParentComponent {
 Ở ví dụ trên bạn thấy `thằng cha` sẽ bảo `thằng con` nói tên cha nó thông qua attribute là `fatherName` thông qua `@Input` ở component con.
 
 
-### 2.Thao tác input đầu vào với setter *(Intercept input property changes with a setter)*
+# Thao tác input đầu vào với setter *(Intercept input property changes with a setter)*
 
 Giống như cách thứ nhất chúng ta cũng dùng `@Input` để đưa giá trị từ component cha tới component con. Nhưng nếu như cách một chúng ta chỉ đưa thẳng giá trị và hiện thị trức tiếp trên component cha thì angular2 cung cấp cho ta hàm `setter` để xử lý input đầu vào.
 
@@ -119,7 +120,7 @@ export class AppParentComponent {
 
 ````
 
-### 3.Sử dụng ngOnchanges của Component *(Intercept input property changes with ngOnChanges)*
+# Sử dụng ngOnchanges của Component *(Intercept input property changes with ngOnChanges)*
 
 Đầu tiên chúng ta cùng đi sơ qua lifecycle của angular2.
 
@@ -198,7 +199,7 @@ Các bạn có thể xem ví dụ ở đây.
 <iframe style='width: 100%; height: 600px' src='https://embed.plnkr.co/XGOr74GMk2w0ZkUzWs8E/' frameborder='0'
 allowfullscren='allowfullscren'></iframe>
 
-### 4.Lắng nghe thay đổi từ component con bằng `EventEmitter`
+# Lắng nghe thay đổi từ component con bằng `EventEmitter`
 
 Ở 3 cách trên đều detect thay dổi từ `component cha -> component con` và cập nhật view. Ở cách này sẽ cũng cấp cách gửi thông tin thay đôi từ `component con -> component cha` thông qua `binding decorator` là `@Output` và class `EventEmitter`.
 
@@ -262,7 +263,7 @@ export class AppParentComponent {
 <iframe style='width: 100%; height: 600px' src='https://embed.plnkr.co/T6fOOAqM8hVHzQd8bw4W/' frameborder='0'
 allowfullscren='allowfullscren'></iframe>
 
-### 5. Sử dụng local variable *(Parent interacts with child via local variable)*
+# Sử dụng local variable *(Parent interacts with child via local variable)*
 
 Trong angular2 có cung cấp cho chúng ta ký hiệu `#` trong template khi sử dụng component nào đó (trong bài này nó sẽ nằm trong component cha). Và `angular2 complier` tạo một biến `chứa giá trị của component được gọi` và chúng ta có thể tùy ý sử dụng những public resource trong component đó (ở đây là component con).
 
@@ -309,7 +310,7 @@ export class AppParentComponent {
 
 Nhưng ở kĩ thuật này do là chỉ sử dụng được trong nội bộ template nên có khá nhiều giới hạn nếu chúng ta muốn gọi hay sử dụng những resource của **component con bên trong component cha** thay vì sử dụng trên **template của component cha**. Do đó chúng ta đến với kĩ thuật kế tiếp đó chính là sử dụng `@ViewChild`.
 
-### 6. Sử dụng `@ViewChil` *(Parent calls a ViewChild)* 
+# Sử dụng `@ViewChil` *(Parent calls a ViewChild)* 
 
 Cũng giống như kỹ thuật `local variable` nhưng chung ta sẽ khởi tạo biến kiểu của component con thông qua syntax :
 
@@ -345,7 +346,7 @@ export class AppParentComponent {
 
 Nhớ import `ViewChild` nhé. Không là sẽ báo lỗi đấy.
 
-### 7. Tương tác thông qua service *(Parent and children communicate via a service)*
+# Tương tác thông qua service *(Parent and children communicate via a service)*
 
 Đây là một kỹ thuật mình sử dụng khá nhiều trong việc comunicate giữa các component. 
 
@@ -473,7 +474,7 @@ Live example:
 <iframe style='width: 100%; height: 600px' src='https://embed.plnkr.co/iKDv7AEaHqUAyGZmeyhm/' frameborder='0'
 allowfullscren='allowfullscren'></iframe>
 
-### Tổng kết
+# Tổng kết
 
 Đây là những kĩ thuật để giao tiếp giữa các component trong angular2. 
 

@@ -11,15 +11,17 @@ date: 2018-04-17 10:46:56
 
 Dạo gần đây đa phần các dự án mới đều được viết bằng các framework SPA như React Vue hoặc là Angular, và một số thư viện khác nữa... 
 
-![Hàng ghế đá (Source: google.com)](https://i.imgur.com/Cf7sHLx.png)
-
 <!--more-->
+
+# Bối cảnh
 
 Mình nói đa phần vì, không phải dự án cũng buộc phải dùng SPA cả! Kiểu như cứ làm SPA rồi là than làm sao để SEO 😴 dù biết là vẫn có thể SEO được nhưng mà phải làm lằng nhoằng quá, thay vào đó đơn giản hơn có thể dùng ngôn ngữ server side rendering như PHP, RoR, nodejs, .net... và đi kèm SPA cho một số pages internal là được gòi. 😅
 
 Quay lại vấn đề chúng ta có nên **cache** danh sách các chức năng của người dùng nằm ở phía client hay không? Hãy để lại ý kiến của bạn nằm ở dưới nhé.
 
 Theo mình là tùy theo thể trạng dự án, nếu công việc query chức năng và **cache trên server tốn nhiều tài nguyên** cũng như ảnh hưởng nghiêm trọng tới UX của người dùng thì chúng ta nên implement việc này. Và điều quan trọng nhất của việc này là khi nào thì danh sách chức năng nằm phía dưới client kia **được refresh** và làm mới?
+
+# Hướng giải quyết
 
 Có 2 hướng giải quyết ở đây là:
 - Tạo ra một **expire time** cho cache.

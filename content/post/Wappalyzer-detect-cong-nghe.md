@@ -3,8 +3,12 @@ title: Wappalyzer-extension xác định công nghệ webapp
 author: Dinh Duong
 excerpt: true
 date: 2018-04-03 09:52:47
-tags: ["sharing","extension"]
+tags: 
+    - sharing
+    - extension
 ---
+
+# Giới thiệu
 
 Đây là một extension (có cả trên Chrome và Firefox) khá là hữu ích cho dev như chúng mình, nó giúp chúng ta biết được những "bí mật" công nghệ đằng sau của trang web mà chúng ta đang xem, nó đã giúp mình khá nhiều trong việc biết thêm những nền tảng công nghệ mới ví dụ như là Netlify, Heap, Intercom,... cũng như khi thấy những trang web rất chạy rấy là good, tò mò xem nó đã được viết bằng những công nghệ nào React, Vue hay Angular hay đơn giản là js thuần... cũng như xem nó được host trên server gì, các thư viện đang sử dụng là gì... Từ những thứ mới mẻ đó chúng ta có thể học thêm nhiều thứ.
 

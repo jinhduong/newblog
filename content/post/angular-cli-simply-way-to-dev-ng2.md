@@ -1,12 +1,13 @@
 ---
-title:  'Angular-CLI - Phát triển ứng dụng ng2 chưa bao giờ đơn giản hơn thế'
+title:  Angular-CLI - Phát triển ứng dụng ng2 chưa bao giờ đơn giản hơn thế
 date:   2017-02-25 10:00:00
-tags:   ["angular"]
+tags:   
+    - angular
 ---
 
 <!-- ![angular-cli](http://i.imgur.com/7svwDWJ.png) -->
 
-## Angular CLI là gì?
+# Angular CLI là gì?
 
 Angular CLI là gì? - **Command line interface tool** for Angular2. Được lấy cảm hứng từ Ember-CLI. Nó làm một tool cho những dự án về angular2 để hỗ trợ việc build môi trường để viêc phát triển một dự án angular2 nhanh chóng và dễ dàng hơn. Các chức năng của nó như là <i class="em em---1"></i> :
 
@@ -42,7 +43,7 @@ Bên cạch những điều tích cực mà nó đem lại thì bên cạnh đó
 - Update lại version mới khá tốn thời gian.
 - ...
 
-## Setup một dự án mới bằng Angular-CLI
+# Setup một dự án mới bằng Angular-CLI
 
 1. Angular-CLI được viết bằng nodejs nên nó yêu cầu máy của bạn cài Node và npm
 2. `npm install -g @angular/cli`
@@ -53,7 +54,7 @@ Bên cạch những điều tích cực mà nó đem lại thì bên cạnh đó
 
 Các bạn có thể lên [Angular-CLI document](https://github.com/angular/angular-cli) để xem thêm các chức năng cơ bản khác nhé.
 
-## Kết
+# Kết
 
 Thank Angular-CLI team đã tạo ra một công cụ hữu ích cho những angular2 coder và angular2 coding. Chúc các bạn có những dự án thành công. <i class="em em-money_with_wings"></i>
 

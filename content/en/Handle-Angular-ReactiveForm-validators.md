@@ -3,8 +3,12 @@ title: Handle Angular ReactiveForm validators
 author: Dinh Duong
 excerpt: true
 date: 2017-10-20 22:04:17
-tags: ["angular","en"]
+tags: 
+    - angular
+    - english
 ---
+
+# Reason
 
 Sometimes we need to enable or disable the validators which are already have been initialize. Something like below
 
@@ -23,6 +27,8 @@ The problem here is after `this.form.value.type` has changed and the value is no
 **setAsyncValidators**: Same `setValidators` but it will work with async `validator`
 
 **updateValueAndValidity**: Re-calculates the value and validation status of the control.
+
+# Implementation
 
 Follow by above definition, we can make the manual validators like as:
 <script src="https://gist.github.com/jinhduong/0634e6e7fb387df9205769f116235e2e.js"></script>

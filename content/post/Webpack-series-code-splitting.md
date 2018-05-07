@@ -3,7 +3,6 @@ title: Webpack series (ep3) - code splitting
 tags:
   - webpack
 author: Dinh Duong
-excerpt: true
 date: 2018-04-03 00:00:00
 ---
 

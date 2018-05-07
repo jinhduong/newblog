@@ -3,17 +3,175 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://www.jinhduong.com/about/</loc>
+    <lastmod>2018-05-07T10:41:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/thu-viet-mot-library-hoan-chinh-linq/</loc>
+    <lastmod>2018-05-03T10:55:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/typescript-thoang-qua/</loc>
+    <lastmod>2018-04-22T22:49:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/sidebar-in-front-end-side/</loc>
+    <lastmod>2018-04-17T10:46:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/wappalyzer-detect-cong-nghe/</loc>
+    <lastmod>2018-04-03T09:52:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/webpack-series-code-splitting/</loc>
+    <lastmod>2018-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/use-css-file-inside-a-component-by-angularcli-webpack/</loc>
+    <lastmod>2017-11-23T21:57:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/handle-angular-reactiveform-validators/</loc>
+    <lastmod>2017-10-20T22:04:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/webpack-co-ban-2/</loc>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/webpack-co-ban/</loc>
+    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/angular2-cai-thien-performance/</loc>
+    <lastmod>2017-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/js-loop-compiler/</loc>
+    <lastmod>2017-03-01T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/js-tips-3/</loc>
+    <lastmod>2017-02-26T02:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/angular-cli-simply-way-to-dev-ng2/</loc>
+    <lastmod>2017-02-25T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/angular2-comunication/</loc>
+    <lastmod>2017-02-23T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/js-tips-2/</loc>
+    <lastmod>2016-06-09T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/js-tips/</loc>
+    <lastmod>2016-06-05T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/namespace-pattern/</loc>
+    <lastmod>2016-04-14T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/angular/</loc>
+    <lastmod>2018-04-17T10:46:56+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://www.jinhduong.com/tags/angular-2/</loc>
+    <lastmod>2017-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://www.jinhduong.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/en/</loc>
+    <lastmod>2017-11-23T21:57:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/extension/</loc>
+    <lastmod>2018-04-03T09:52:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/javascript/</loc>
+    <lastmod>2018-05-03T10:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/jstip/</loc>
+    <lastmod>2017-02-26T02:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/linq/</loc>
+    <lastmod>2018-05-03T10:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/post/</loc>
+    <lastmod>2018-05-03T10:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/sharing/</loc>
+    <lastmod>2018-04-17T10:46:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/</loc>
+    <lastmod>2018-04-17T10:46:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/typescript/</loc>
+    <lastmod>2018-05-03T10:55:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/webpack/</loc>
+    <lastmod>2018-04-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/</loc>
+    <lastmod>2018-05-03T10:55:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   

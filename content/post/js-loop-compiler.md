@@ -1,12 +1,12 @@
 ---
-title: "Javascript deep (ep1) - Event loop trong js compiler và cái setTimeout quái quỉ"
+title: Javascript deep (ep1) - Event loop trong js compiler và cái setTimeout quái quỉ
 date: 2017-03-01 10:00:00
 tags:
     - javascript
 ---
 
 <!-- ![cover](https://i.imgur.com/YsYksJC.png) -->
-### 1.Hoàn cảnh
+# Hoàn cảnh
 
 Bạn đã bao giờ tự hỏi tại sao `setTimeout(()=>{console.log(123)}, 0);` được nhiều library sử dụng đến như thế? Nó là 1 kỹ thuật hay là 1 trick? Và tại sao `timeout chỉ = 0` nhưng nó luôn luôn là đứa chạy cuối cùng vậy, `0 giây` hiểu một cách phẳng não nhất chính là ngay tức thời cmn mà 😐. Bài này xuất phát từ câu hỏi của một thằng bạn chả biết làm javascript lâu chưa mà đi hỏi:
 
@@ -65,7 +65,7 @@ Vậy những khái niệm `bất đồng bộ (asynchronous)` trong javascript 
 
 Chúng ta đi đến phần ví dụ để xem javascript đã giải quyết như thế nào nhé !!!
 
-### 2.Ví dụ
+# Ví dụ
 Chúng ta cùng xem đoạn code sau nhé. (nó sẽ bao gồm và giải thích luôn đoạn code đầu mà chúng ta đưa ra)
 
 ```` ts
@@ -101,7 +101,7 @@ Cùng `4 thành phần` quan trọng của `javacript`
 Search google thì cũng có nhiều hình ảnh minh họa nhưng mình quyết định vẽ tay cho nó dễ hiểu hơn ... chắc zậy 😄 
 ![img](https://i.imgur.com/IV2XArV.jpg)
 
-### Giải thích
+# Giải thích
 
 - Chung ta sẽ chạy từ trên xuống từ khối lệnh `thứ 1 -> 4`.
 - Nhìn vào `khối đỏ` ta thấy khối code này sẽ nằm trong danh sách `event listener/ web apis` và sẽ `lắng nghe (listen)` các sự kiện khi cái button `#btn_lay_data_tren_api` bị click zô. 😄
@@ -120,7 +120,7 @@ Search google thì cũng có nhiều hình ảnh minh họa nhưng mình quyết
 
 **Done,** có lẽ đến dây các bạn đã ít nhiều hiểu được cách mà javascript giải quyết vấn đề bất đồng bộ với single-threaded. Cũng như cách `setTimeout` hoạt động. Và nó tương tự với các khái niệm về callback như `Interval`, `Promise` và các `funtion callback`.
 
-### Cuối cùng
+# Cuối cùng
 
 Với các giải thích trên chắc chắn bài toán đưa ra đâu bài chắc chắn không khó để giải thích. Và có vài điều chúng ta rút ra với callback ở javascript
 
@@ -137,7 +137,7 @@ Cuối cùng một cái hình cho mọi người dễ hình dung, mườn tượ
 
 Đọc thêm các bài viết ở blog mình: [https://jinhduong.github.io](https://jinhduong.github.io)
 
-### Tham khảo
+# Tham khảo
 
 - [http://latentflip.com/loupe](http://latentflip.com/loupe)
 - [http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)

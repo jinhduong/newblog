@@ -1,9 +1,14 @@
+<style>
+    body {
+        background: #FAFAFA;
+    }
+</style>
 {{ partial "header.html" . }}
 <h1 class="posts-title">📚 LATEST POSTS</h1>
 <ul class="post">
-    {{ range .Data.Pages }} {{ if eq .Type "post"}}
+    {{ range .Data.Pages }} {{ if eq .Type "en"}}
     <li>
-        <span class="is-hidden-mobile">
+        <span>
             <time>
                 {{ .Date.Format "Jan 2, 2006" }}
             </time>

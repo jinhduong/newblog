@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.jinhduong.com/about/</loc>
-    <lastmod>2018-05-07T10:41:24+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jinhduong.com/post/thu-viet-mot-library-hoan-chinh-linq/</loc>
     <lastmod>2018-05-03T10:55:29+00:00</lastmod>
   </url>
@@ -33,12 +28,12 @@
   </url>
   
   <url>
-    <loc>https://www.jinhduong.com/post/use-css-file-inside-a-component-by-angularcli-webpack/</loc>
+    <loc>https://www.jinhduong.com/en/use-css-file-inside-a-component-by-angularcli-webpack/</loc>
     <lastmod>2017-11-23T21:57:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.jinhduong.com/post/handle-angular-reactiveform-validators/</loc>
+    <loc>https://www.jinhduong.com/en/handle-angular-reactiveform-validators/</loc>
     <lastmod>2017-10-20T22:04:17+00:00</lastmod>
   </url>
   
@@ -110,7 +105,13 @@
   </url>
   
   <url>
-    <loc>https://www.jinhduong.com/tags/en/</loc>
+    <loc>https://www.jinhduong.com/tags/english/</loc>
+    <lastmod>2017-11-23T21:57:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/en/</loc>
     <lastmod>2017-11-23T21:57:15+00:00</lastmod>
     <priority>0</priority>
   </url>

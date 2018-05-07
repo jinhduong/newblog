@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jinhduong blog</title>
+    <title>You keep the sunshine, save me the rain</title>
     <link>https://www.jinhduong.com/</link>
-    <description>Recent content on jinhduong blog</description>
+    <description>Recent content on You keep the sunshine, save me the rain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 May 2018 10:55:29 +0000</lastBuildDate>
@@ -51,7 +51,7 @@ Thật sự tới hiện tại nó chỉ tương đối là đủ dùng, với b
       <pubDate>Tue, 03 Apr 2018 09:52:47 +0000</pubDate>
       
       <guid>https://www.jinhduong.com/post/wappalyzer-detect-cong-nghe/</guid>
-      <description>Đây là một extension (có cả trên Chrome và Firefox) khá là hữu ích cho dev như chúng mình, nó giúp chúng ta biết được những &amp;ldquo;bí mật&amp;rdquo; công nghệ đằng sau của trang web mà chúng ta đang xem, nó đã giúp mình khá nhiều trong việc biết thêm những nền tảng công nghệ mới ví dụ như là Netlify, Heap, Intercom,&amp;hellip; cũng như khi thấy những trang web rất chạy rấy là good, tò mò xem nó đã được viết bằng những công nghệ nào React, Vue hay Angular hay đơn giản là js thuần&amp;hellip; cũng như xem nó được host trên server gì, các thư viện đang sử dụng là gì&amp;hellip; Từ những thứ mới mẻ đó chúng ta có thể học thêm nhiều thứ.</description>
+      <description>Giới thiệu Đây là một extension (có cả trên Chrome và Firefox) khá là hữu ích cho dev như chúng mình, nó giúp chúng ta biết được những &amp;ldquo;bí mật&amp;rdquo; công nghệ đằng sau của trang web mà chúng ta đang xem, nó đã giúp mình khá nhiều trong việc biết thêm những nền tảng công nghệ mới ví dụ như là Netlify, Heap, Intercom,&amp;hellip; cũng như khi thấy những trang web rất chạy rấy là good, tò mò xem nó đã được viết bằng những công nghệ nào React, Vue hay Angular hay đơn giản là js thuần&amp;hellip; cũng như xem nó được host trên server gì, các thư viện đang sử dụng là gì&amp;hellip; Từ những thứ mới mẻ đó chúng ta có thể học thêm nhiều thứ.</description>
     </item>
     
     <item>
@@ -66,21 +66,21 @@ Code splitting là gì? Code splitting có thể là một trong những feature
     
     <item>
       <title>Use css file inside a component by AngularCLI/Webpack</title>
-      <link>https://www.jinhduong.com/post/use-css-file-inside-a-component-by-angularcli-webpack/</link>
+      <link>https://www.jinhduong.com/en/use-css-file-inside-a-component-by-angularcli-webpack/</link>
       <pubDate>Thu, 23 Nov 2017 21:57:15 +0000</pubDate>
       
-      <guid>https://www.jinhduong.com/post/use-css-file-inside-a-component-by-angularcli-webpack/</guid>
-      <description>I write this one because today when I looking for an editor library which already supported in Angular, after some searching I decided use ngx-quill. About Quill? it’s a quite famous editor library which used by Slack, Buffer… It also more modern and lightweight than CK Editor which is quite heavily.
+      <guid>https://www.jinhduong.com/en/use-css-file-inside-a-component-by-angularcli-webpack/</guid>
+      <description>Reason I write this one because today when I looking for an editor library which already supported in Angular, after some searching I decided use ngx-quill. About Quill? it’s a quite famous editor library which used by Slack, Buffer… It also more modern and lightweight than CK Editor which is quite heavily.
 Back to ngx-quill, I read its documentation and example, I saw some library guide put CSS file inside root index.</description>
     </item>
     
     <item>
       <title>Handle Angular ReactiveForm validators</title>
-      <link>https://www.jinhduong.com/post/handle-angular-reactiveform-validators/</link>
+      <link>https://www.jinhduong.com/en/handle-angular-reactiveform-validators/</link>
       <pubDate>Fri, 20 Oct 2017 22:04:17 +0000</pubDate>
       
-      <guid>https://www.jinhduong.com/post/handle-angular-reactiveform-validators/</guid>
-      <description>Sometimes we need to enable or disable the validators which are already have been initialize. Something like below
+      <guid>https://www.jinhduong.com/en/handle-angular-reactiveform-validators/</guid>
+      <description>Reason Sometimes we need to enable or disable the validators which are already have been initialize. Something like below
  The problem here is after this.form.value.type has changed and the value is not equal 1 so the form validators will be change. We’ll be remove validation for house field and make the vadidation for apartment field.
 How can do that? Fortunately, Angular is provided to us two functions to do that in the run-time : - setValidators and setAsyncValidators - updateValueAndValidity</description>
     </item>
@@ -120,7 +120,7 @@ Cái hay ở đây là bất cứ làm việc gì chúng ta đều có dụng c�
       <pubDate>Wed, 01 Mar 2017 10:00:00 +0000</pubDate>
       
       <guid>https://www.jinhduong.com/post/js-loop-compiler/</guid>
-      <description>1.Hoàn cảnh Bạn đã bao giờ tự hỏi tại sao setTimeout(()=&amp;gt;{console.log(123)}, 0); được nhiều library sử dụng đến như thế? Nó là 1 kỹ thuật hay là 1 trick? Và tại sao timeout chỉ = 0 nhưng nó luôn luôn là đứa chạy cuối cùng vậy, 0 giây hiểu một cách phẳng não nhất chính là ngay tức thời cmn mà 😐. Bài này xuất phát từ câu hỏi của một thằng bạn chả biết làm javascript lâu chưa mà đi hỏi:</description>
+      <description>Hoàn cảnh Bạn đã bao giờ tự hỏi tại sao setTimeout(()=&amp;gt;{console.log(123)}, 0); được nhiều library sử dụng đến như thế? Nó là 1 kỹ thuật hay là 1 trick? Và tại sao timeout chỉ = 0 nhưng nó luôn luôn là đứa chạy cuối cùng vậy, 0 giây hiểu một cách phẳng não nhất chính là ngay tức thời cmn mà 😐. Bài này xuất phát từ câu hỏi của một thằng bạn chả biết làm javascript lâu chưa mà đi hỏi:</description>
     </item>
     
     <item>
@@ -130,7 +130,7 @@ Cái hay ở đây là bất cứ làm việc gì chúng ta đều có dụng c�
       
       <guid>https://www.jinhduong.com/post/js-tips-3/</guid>
       <description>Những điều có thể bạn đã biết hoặc chưa, những kinh nghiệm của mình chia sẽ khi lập trình Javascript (ep3). Các bạn có thể xem phần 2 tại đây
-1.Sử dụng Anonymously scope cho những đoạn code chỉ chạy một lần Với những đoạn code mà các bạn chỉ chạy một lần trong cả app (giống như các flugins của js hay tạo element gì gì đó rồi thôi&amp;hellip;) thì chúng ta nên wrap trong một anonymous function kín.</description>
+Sử dụng Anonymously scope cho những đoạn code chỉ chạy một lần Với những đoạn code mà các bạn chỉ chạy một lần trong cả app (giống như các flugins của js hay tạo element gì gì đó rồi thôi&amp;hellip;) thì chúng ta nên wrap trong một anonymous function kín.</description>
     </item>
     
     <item>

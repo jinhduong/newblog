@@ -60,7 +60,7 @@ ul.post li {
     display: flex;
 }
 
-section.main span {
+section.main ul>li>span {
     margin-right: 0.7em;
     /* min-width: 6em; */
     text-align: right;

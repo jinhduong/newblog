@@ -1,0 +1,27 @@
+{
+  "name": "jinhduong.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinhduong/newblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinhduong/newblog/issues"
+  },
+  "homepage": "https://github.com/jinhduong/newblog#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0"
+  }
+}

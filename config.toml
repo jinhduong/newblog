@@ -26,4 +26,5 @@ theme = "dinify"
   github = "https://github.com/jinhduong"
   twitter = "https://twitter.com/jinhduong"
   email = "0961020@gmail.com"
+  quotes = true
 

@@ -19,3 +19,6 @@
     <p class="back-to-posts"><a href="/">Back to posts</a></p>
 </div>
 {{ partial "footer.html" . }}
+{{ if .Site.Params.quotes }}
+    {{ partial "quotes.html" . }}
+{{ end }}

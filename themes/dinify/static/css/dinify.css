@@ -121,7 +121,7 @@ section.icons img {
 }
 
 @media (min-width: 768px) {
-    section.main span {
+    section.main ul>li>span {
         min-width: 6em;
     }
 }
@@ -149,4 +149,19 @@ section.icons img {
 
 a {
     color: #428bca;
+}
+
+.number {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 0px;
+    display: inherit;
+    font-size: inherit;
+    height: auto;
+    justify-content: inherit;
+    margin-right: inherit;
+    min-width: inherit;
+    padding: 0;
+    text-align: inherit;
+    vertical-align: inherit;
 }

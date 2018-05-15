@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "You keep the sunshine, save me the rain"
 theme = "dinify"
 
-
 [menu]
     [[menu.main]]
         identifier = "about"
@@ -13,6 +12,10 @@ theme = "dinify"
         identifier = "en"
         name = "eng posts"
         url = "/en"
+    [[menu.main]]
+        identifier = "til"
+        name = "tils"
+        url = "/til"
     [[menu.main]]
         identifier = "archives"
         name = "archives"

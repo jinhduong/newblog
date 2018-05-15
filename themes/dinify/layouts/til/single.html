@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<div class="content markdown-body">
+<div class="content">
     <div class="post-title">
         <h1 class="page-heading">
             {{.Title}}
@@ -11,9 +11,5 @@
         {{ .TableOfContents }}
     </div>
     {{ .Content }}
-    <p class="back-to-posts"><a href="/">Back to posts</a></p>
 </div>
 {{ partial "footer.html" . }}
-{{ if .Site.Params.quotes }}
-    {{ partial "quotes.html" . }}
-{{ end }}

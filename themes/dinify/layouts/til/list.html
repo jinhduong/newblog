@@ -4,9 +4,13 @@
     }
 </style>
 {{ partial "header.html" . }}
+<h2 class="posts-title">
+    <i>Nơi lưu trữ những ghi chép nhỏ nhỏ</i>
+</h2>
+<br>
 <h1 class="posts-title">📚 LATEST POSTS</h1>
 <ul class="post">
-    {{ range .Data.Pages }} {{ if eq .Type "en"}}
+    {{ range .Data.Pages }} {{ if eq .Type "til"}}
     <li>
         <span class="is-hidden-mobile">
             <time>

@@ -14,7 +14,7 @@
     <p class="back-to-posts"><a href="/en">Back to posts</a></p>
     {{ range .Params.tags }}
         <span class="tag is-dark">
-            <a href="/tag/{{ . }}"># {{ . }}</a> 
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
         </span>
     {{ end }}
 </div>

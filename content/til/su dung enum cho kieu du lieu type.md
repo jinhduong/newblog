@@ -2,7 +2,7 @@
 title: "Sử dụng enum cho các kiểu dữ liệu type"
 date: 2018-05-15T16:19:16+08:00
 tags: 
-    - .net
+    - dotnet
 ---
 
 Một cách đơn giản để code chúng ta dễ đọc hơn. Giả sử chúng ta có bảng `product` với filed `type` kiểu int định nghĩa loại của sản phẩm.

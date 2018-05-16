@@ -5,10 +5,12 @@ tags:
     - git
 ---
 
-``` bash
+Chúng ta chuyển về nhánh `master` trước, sau đó merge nhánh `feature`, sau đó push lên lại
+
+``` git
 git checkout master
 git pull origin master
-git merge test
+git merge feature
 git push origin master
 ```
 

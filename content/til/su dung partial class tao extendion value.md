@@ -1,7 +1,7 @@
 ---
 title: "Sử dụng partial class để tạo ra các extention value"
 date: 2018-05-15T14:46:41+08:00
-tag: 
+tags: 
     - .net
 ---
 

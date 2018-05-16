@@ -31,3 +31,7 @@ theme = "dinify"
   email = "0961020@gmail.com"
   quotes = true
 
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+

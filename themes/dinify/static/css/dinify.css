@@ -165,3 +165,7 @@ a {
     text-align: inherit;
     vertical-align: inherit;
 }
+
+.tag a {
+    color: inherit;
+}

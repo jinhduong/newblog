@@ -1,7 +1,7 @@
 ---
 title: "Sử dụng enum cho các kiểu dữ liệu type"
 date: 2018-05-15T16:19:16+08:00
-tag: 
+tags: 
     - .net
 ---
 

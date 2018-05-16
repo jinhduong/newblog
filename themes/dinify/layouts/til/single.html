@@ -11,5 +11,11 @@
         {{ .TableOfContents }}
     </div>
     {{ .Content }}
+    <p class="back-to-posts"><a href="/til">Back to posts</a></p>
+    {{ range .Params.tags }}
+        <span class="tag is-dark">
+            <a href="/tags/{{ . }}"># {{ . }}</a> 
+        </span>
+    {{ end }}
 </div>
 {{ partial "footer.html" . }}

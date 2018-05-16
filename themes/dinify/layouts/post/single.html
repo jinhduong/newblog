@@ -17,6 +17,11 @@
     </div>
     {{ .Content }}
     <p class="back-to-posts"><a href="/">Back to posts</a></p>
+    {{ range .Params.tags }}
+        <span class="tag is-dark">
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        </span>
+    {{ end }}
 </div>
 {{ partial "footer.html" . }}
 {{ if .Site.Params.quotes }}

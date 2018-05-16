@@ -1,7 +1,15 @@
-<main>
-    {{ range .Data.Pages }} {{ if eq .Type "blog"}}
-    <h2>
+{{ partial "header.html" . }}
+<h1 class="posts-title">📚 {{ .Page.Title }}</h1>
+<ul class="post">
+    {{ range .Data.Pages }}
+    <li>
+        <span class="is-hidden-mobile">
+            <time>
+                {{ .Date.Format "Jan 2, 2006" }}
+            </time>
+        </span>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h2>
-    {{ end }} {{ end }}
-</main>
+    </li>
+    {{ end }}
+</ul>
+{{ partial "footer.html" . }}

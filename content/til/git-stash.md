@@ -14,7 +14,6 @@ git stash save # or just "git stash"
 2. List
 ``` git
 git stash list
-
 stash@{0}: WIP on <branch-name>: <lastest commit>
 stash@{1}: WIP on <branch-name>: <lastest commit>
 stash@{2}: WIP on <branch-name>: <lastest commit>

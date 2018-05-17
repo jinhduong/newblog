@@ -7,7 +7,7 @@ tags:
 
 Chúng ta đã biết các file như hình ảnh `.png .jpg`... hoặc `.pdf`... thì browser sẽ tự động preview cho chúng ta, không nhưng các file khác là khi mởi new tab nó sẽ tự động download về như `.xlms .doc .docs`.
 
-** Vậy thì làm sao để download?** 
+**Vậy thì làm sao để download?** 
 
 Browser có 1 chức năng là khi chúng ta nhấp center/middle mouse thì nó sẽ down file đó về chứ không priview file đó => Việc của chúng ta là **giả lập lại thao tác `mouse chân giữa`.
 

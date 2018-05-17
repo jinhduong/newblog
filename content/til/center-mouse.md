@@ -9,7 +9,7 @@ Chúng ta đã biết các file như hình ảnh `.png .jpg`... hoặc `.pdf`...
 
 **Vậy thì làm sao để download?** 
 
-Browser có 1 chức năng là khi chúng ta nhấp center/middle mouse thì nó sẽ down file đó về chứ không priview file đó => Việc của chúng ta là **giả lập lại thao tác `mouse chân giữa`.
+Browser có 1 chức năng là khi chúng ta nhấp center/middle mouse thì nó sẽ down file đó về chứ không priview file đó => Việc của chúng ta là **giả lập lại thao tác `mouse chân giữa`**.
 
 # Code
 ``` js

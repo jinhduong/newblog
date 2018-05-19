@@ -1,5 +1,5 @@
 ---
-title: "Zone in Angular và các thiết kế ở front-end"
+title: "Zone in Angular và các thiết kế ở front-end framework"
 date: 2018-05-18T17:27:31+08:00
 tags: 
     - angular

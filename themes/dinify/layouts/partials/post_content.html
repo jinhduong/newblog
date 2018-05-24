@@ -1,0 +1,29 @@
+<div class="content markdown-body">
+    <div class="post-title">
+        <h1 class="page-heading">
+            {{.Title}}
+        </h1>
+        <span>{{ .Date.Format "Jan 2, 2006" }} - {{ .ReadingTime }} minutes read</span>
+    </div>
+    <div class="notification">
+        <h4>Table of content</h4>
+        {{ .TableOfContents }}
+    </div>
+    {{ .Content }}
+    <p class="back-to-posts"><a href="/">Back to posts</a></p>
+    {{ range .Params.tags }}
+        <span class="tag is-dark">
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        </span>
+    {{ end }}
+</div>
+<div id="disqus_thread"></div>
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://jinhduong-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

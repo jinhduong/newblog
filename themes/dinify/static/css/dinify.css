@@ -27,6 +27,14 @@ h1.page-heading {
     text-transform: uppercase;
 }
 
+h1.name a {
+    color: #F67D20;
+}
+
+h1.name a:hover {
+    opacity: 0.8;
+}
+
 h1.name,
 h1.post-title {
     font-family: 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif
@@ -50,10 +58,14 @@ section.header ul {
 }
 
 section.header li {
-    font-size: 0.85em;
+    font-size: 1em;
     margin-right: 0.8em;
     font-weight: 500;
     text-decoration: underline;
+}
+
+section.header li:hover {
+    opacity: 0.8;
 }
 
 ul.post li {

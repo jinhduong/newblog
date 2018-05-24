@@ -4,25 +4,7 @@
         }
 </style>
 {{ partial "header.html" . }}
-<div class="content markdown-body">
-    <div class="post-title">
-        <h1 class="page-heading">
-            {{.Title}}
-        </h1>
-        <span>{{ .Date.Format "Jan 2, 2006" }} - {{ .ReadingTime }} minutes read</span>
-    </div>
-    <div class="notification">
-        <h4>Table of content</h4>
-        {{ .TableOfContents }}
-    </div>
-    {{ .Content }}
-    <p class="back-to-posts"><a href="/">Back to posts</a></p>
-    {{ range .Params.tags }}
-        <span class="tag is-dark">
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-        </span>
-    {{ end }}
-</div>
+{{ partial "post_content.html" . }}
 {{ partial "footer.html" . }}
 {{ if .Site.Params.quotes }}
     {{ partial "quotes.html" . }}

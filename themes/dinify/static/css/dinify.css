@@ -169,3 +169,7 @@ a {
 .tag a {
     color: inherit;
 }
+
+.tag:not(body) {
+    background-color: unset;
+}

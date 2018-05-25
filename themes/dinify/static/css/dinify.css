@@ -185,3 +185,8 @@ a {
 .tag:not(body) {
     background-color: unset;
 }
+
+code {
+    font-weight: 600;
+    color: unset;
+}

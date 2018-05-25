@@ -191,6 +191,10 @@ code {
     color: unset;
 }
 
+pre code {
+    font-weight: 400;
+}
+
 .markdown-body blockquote {
     padding: 1em 1em;
     border-radius: 5px;

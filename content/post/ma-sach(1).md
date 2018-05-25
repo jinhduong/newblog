@@ -6,28 +6,31 @@ tags:
 ---
 
 ![Imgur](http://i.imgur.com/ig8F5Ep.png)
+
 Sáng thứ hai mọi người đi làm còn mình thì đi coffee một mình :D. Đang thất nghiệp ahiuhiu. Với một thằng coder nói cho đúng được ngồi mình nhâm nhi ly cà phê nhìn lại cuộc sống cũng là tuyệt vời rồi. Nhất là có thời gian suy nghĩ viết ba cái thứ linh tinh cho vui vẻ :). Nhớ lại câu thằng bạn nói: "Trong bóng đá có được mấy người ung dung tự tại đâu" nên nhiều khi muốn ung dung đâu phải dễ :D.
 
 # Mã sạch (clean code) là gì? Làm sao biết code nào sạch code nào không?
 Thôi quay lại vấn đề chính là **mã sạch** (clean code) - Vậy mã sạch là gì? Tại sao developer chúng ta cần mã sạch, nó liên quan gì đến chuyện trở thành một **developer tốt hơn**. Có bạn trả lời **mã sạch** đương nhiên là mã không bị dơ rồi :D. Cũng đúng vậy mã như thế nào là mã không được sạch (dùng từ dơ thấy thô thô quá :D). Xem thử đoạn code dưới đây nhé:
 
-  	public object calTotalCost(){
-      var list = Products.getItems();
-      var totalCost =0;
+```c#
+public object calTotalCost(){
+    var list = Products.getItems();
+    var totalCost =0;
 
-      if(list != null){
-          foreach (var item in list)
-          {
-              totalCost += item.getCost();
+    if(list != null){
+        foreach (var item in list)
+        {
+            totalCost += item.getCost();
 
-              if(totalCost > user.Balance){
-                  return ErrorMessage("User balance not enough");
-              }
-          }
-      }
+            if(totalCost > user.Balance){
+                return ErrorMessage("User balance not enough");
+            }
+        }
+    }
 
-      return totalCost;
-  	}
+    return totalCost;
+}
+```
 
 Trong đoạn code này những thứ gì bạn cảm thấy nó **không được sạch lắm**? Chắc nhiều bạn nhìn vào kiu là: m* thằng này code ngu vãi, giờ này còn ai code chuối như vậy nữa :D. Hehe chịu thôi, trước mình cũng code ngu và thiếu trách nhiệm như vậy ak :D.Có điều lâu lắm rồi nha giờ bớt rầu (-_-). Mình phải về quê trốn thằng maintain cả nằm trời =]] .Nên giờ chia sẽ lại cho những bạn nào còn chưa giác ngộ về clean code :D 
 
@@ -49,7 +52,7 @@ Kiến thức và kinh nghiệm mình cũng chỉ có hạn nên cần phải đ
 
 Mình sẽ list lại cũng như bàn luận thêm về những gì được viết trong sách, thật ra nói clean code là gì đó **khá thực thể** nhưng nó cũng **khá là cảm tính** kiểu như chúng ta luôn thấy bạn gái đứa khác đẹp trong khi nó nghĩ ngược lại :D. Nhưng đây là những chia sẽ của các bậc tiền bối đầu ngành nên nó là những kinh nghiệm rất quý giá cho nghiệp lập trình chúng ta :)
 
-## 1. Các chia sẽ của các bậc tiền bối về clean code
+## Các chia sẽ của các bậc tiền bối về clean code
 
 - `Clean code does one thing well.` (Bjarne Stroustrup) 
 - `Clean code is simple and direct, clean code read like well-written prose.` (Grady Booch)
@@ -60,47 +63,52 @@ Mình sẽ list lại cũng như bàn luận thêm về những gì được vi�
 
 Với những chia sẽ về clean code này thì nó có thể thấm hoặc sẽ thấm với bất cứ lập trình viên nào, với bản thân mình là thế. Mình cũng chưa thể nào nói là đã hiểu hết những chia sẽ này, vì thật sự cũng không hiểu nó nói gì :D. Translate và xem thôi hehe...
 
-## 2.Clean code rules
+# Clean code rules
 
-### 2.1 Meaningful names
+## Meaningful names
 
-**2.1.1 Use intention-revealing Names**
+### Use intention-revealing Names
 
 Đặt tên biến là một nghệ thuật trong lập trình đấy nhé,phải đặt cái tên phải thật là ý nghĩa, dể hiễu, đọc phát hiểu ngay, đúng ngữ pháp (vs mình =]]). Kiểu như Lê Văn Nhật, Lê Văn Mỹ (muốn con mình đi nước ngoài) hay Nguyễn Vàng, Nguyễn Hột Xòn (muốn con cái giàu có)... 
 
 Đừng như Nguyễn Văn A, Nguyễn Văn B mà mấy ông thầy dạy lập trình hay lấy ra làm ví dụ nhé.Có lẽ cuộc đời thg Nguyễn Văn A là hay đc đem ra làm ví dụ nhất cuộc đời này. Kệ nó đi :D **Nói chung đặt tên biến trong lập trình rất quan trọng, project thành bại một do nó mà ra.**
 
 Ví dụ:
-
-    public List<Customer> GetData()
+``` c#
+public List<Customer> GetData()
+    {
+        var list1 = new List<Customer>();
+        var data = ServiceRepository.GetPlainCustomers();
+        foreach(var item in data)
         {
-            var list1 = new List<Customer>();
-            var data = ServiceRepository.GetPlainCustomers();
-            foreach(var item in data)
-            {
-                if (item != null && item.IsValid)
-                    list1.Add(item);
-            }
-            return list1;
+            if (item != null && item.IsValid)
+                list1.Add(item);
         }
+        return list1;
+    }
+```
+
 *Đạo xanh, 2 tháng sau hay sau này là không biết nó làm cái nồi gì luôn ak. Phắt zu thằng viết ra hàm này.*
 
 Như thế này thì tốt hơn nhiều phải không, bỏ thêm vài giây để suy nghĩ tên biến, tiết kiệm được hàng giờ đồng hồ sau này :)
 
-    public List<Customer> GetValidCustomers()
+``` c#
+public List<Customer> GetValidCustomers()
+    {
+        var validCustomers = new List<Customer>();
+        var plainCustomers = ServiceRepository.GetPlainCustomers();
+        foreach(var customer in plainCustomers)
         {
-            var validCustomers = new List<Customer>();
-            var plainCustomers = ServiceRepository.GetPlainCustomers();
-            foreach(var customer in plainCustomers)
-            {
-                if (customer != null && customer.IsValid)
-                    validCustomers.Add(customer);
-            }
-            return validCustomers;
+            if (customer != null && customer.IsValid)
+                validCustomers.Add(customer);
         }
+        return validCustomers;
+    }
+```
 
-**2.1.2 Use Pronounceable Names**
+### Use Pronounceable Names
 
+```c#
     //BAD
     public class Customer
         {
@@ -117,9 +125,11 @@ Như thế này thì tốt hơn nhiều phải không, bỏ thêm vài giây đ�
             private DateTime LastLoginTime;
             private string CustomerId = "ID123";
         }
+```
 
-**2.1.3 Use Searchable Names**
+### Use Searchable Names
 
+```c#
     //BAD
     for(int j =0; j<34 ;j++){
         s += (t[j] * 4) / 5;
@@ -135,8 +145,10 @@ Như thế này thì tốt hơn nhiều phải không, bỏ thêm vài giây đ�
          int realTaskWeeks = (realTaskDays / WORK_DAYS_PER_WEEK);
          sum+=realTaskWeeks;
      }
-   
-Nguồn: http://jinhduong.github.io/coding/2016/10/24/ma-sach.html
+```
 
 Còn tiếp...
+
+Thanks bạn đã đọc
+
 

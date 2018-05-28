@@ -6,6 +6,8 @@ tasg:
 -   serverless
 ---
 
+![webtask](https://i.imgur.com/B2nqSOt.png)
+
 # Lý do
 
 Blog mình hiện tại có chức năng là hiển thị một `dev quotes` random khi đọc một bài bất kì. Nhìn lên top của bài này chắc là bạn sẽ thấy 😅

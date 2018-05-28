@@ -1,5 +1,5 @@
 (function () {
-    fetch('https://dev-quotes.jinhduong.com')
+    fetch('https://wt-021b7f362991cec68dd62033c2455e46-0.sandbox.auth0-extend.com/index')
         .then(function (result) {
             data = result.json()
                 .then(function (data) {

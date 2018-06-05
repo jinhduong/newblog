@@ -1,6 +1,6 @@
 baseURL = "https://www.jinhduong.com"
 languageCode = "en-us"
-title = "You keep the sunshine, save me the rain"
+title = "jinhduong's blog - you keep the sunshine, save me the rain"
 theme = "dinify"
 
 [menu]
@@ -16,14 +16,14 @@ theme = "dinify"
         identifier = "til"
         name = "tils"
         url = "/til"
-    [[menu.main]]
-        identifier = "archives"
-        name = "archives"
-        url = "/archives"
-    [[menu.main]]
-        identifier = "good blogs"
-        name = "good blogs"
-        url = "/good-blogs"
+    # [[menu.main]]
+    #     identifier = "archives"
+    #     name = "archives"
+    #     url = "/archives"
+    # [[menu.main]]
+    #     identifier = "good blogs"
+    #     name = "good blogs"
+    #     url = "/good-blogs"
 
 [params]
   github = "https://github.com/jinhduong"

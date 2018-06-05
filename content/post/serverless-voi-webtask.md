@@ -6,7 +6,7 @@ tasg:
 -   serverless
 ---
 
-![webtask](https://i.imgur.com/B2nqSOt.png)
+![webtask homepage](https://i.imgur.com/B2nqSOt.png)
 
 # Lý do
 
@@ -15,7 +15,7 @@ Blog mình hiện tại có chức năng là hiển thị một `dev quotes` ran
 Lý do là lúc trước chỉ mỗi chức năng nhỏ xíu này nhưng mình lại host nó trên tài khoản `heroku` của mềnh và tình trạng xảy ra là `free dyno hours` của account bị vượt mức (`heroku` cho free 1000 hours 1 tháng). Một phần vì hiện tại mình host khá nhiều side project trên này nên dù blog mếu có người đọc nhưng cũng tốn `~280 hours` một tháng nên mình quyết định thôi move qua 1 services free đơn giản khác. 
 Sau một hồi si nghĩ tính dùng `AWS Lamda` mà thấy thôi hơi bự để làm cái này nên mình chuyển qua dùng [Webtask](https://webtask.io)
 
-![free dyno hours](https://i.imgur.com/epLoDam.png)
+![free dyno hours bị hết](https://i.imgur.com/epLoDam.png)
 
 # Webtask là gì?
 
@@ -74,7 +74,7 @@ https://wt-021b7f362991cec68dd62033c2455e46-0.sandbox.auth0-extend.com/index
 
 Xong rồi, giờ bạn có thể test với url mới được `webtask` cung cấp.
 
-![test](https://i.imgur.com/pRVdMPS.png)
+![kết quả khi test thử](https://i.imgur.com/pRVdMPS.png)
 
 Bạn nào muốn lấy các `developer quotes` thì có thể dùng nhé welcomed 😅.
 

@@ -201,3 +201,15 @@ pre code {
     background: #F4ECF9;
     color: unset;
 }
+
+.markdown-body img {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.alt-img {
+    display: block;
+    font-style: italic;
+    color: #BBB;
+    font-size: 90%;
+}

@@ -11,4 +11,13 @@
                     $('section.main').prepend($quote);
                 })
         });
+
+    // Auto add title of img
+    $('p img').each(function (i, elem) {
+        var $img = $(elem);
+        $('<span>')
+            .addClass('alt-img')
+            .text($img.attr('alt')).insertAfter($img);
+
+    });
 })();

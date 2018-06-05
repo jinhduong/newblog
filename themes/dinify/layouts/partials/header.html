@@ -1,19 +1,13 @@
 <html>
 
 <head>
-    <title>
-        {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-        {{ if eq $url "/" }}
-            {{ .Site.Title }}
-        {{ else }}
-            {{ .Title }}
-        {{ end }}
-    </title>
+    <title>{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}{{ if eq $url "/" }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
     <meta charset="UTF-8">
     <meta name="description" content="jinhduong's blog">
-    <meta name="keywords" content="jinhduong's blog, jinhduong, javascript, developer">
+    <meta name="keywords" content="jinhduong blog, jinhduong, javascript, javascript tips, angular, webpack, webpack cho nguoi moi bat dau, jinhduong.github.io">
     <meta name="author" content="jinhduong">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://jinhduong.com/index.html"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
     <link rel="stylesheet" href="/css/dinify.css">    

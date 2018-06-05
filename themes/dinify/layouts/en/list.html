@@ -1,9 +1,9 @@
+{{ partial "header.html" . }}
 <style>
     body {
         background: #FAFAFA;
     }
 </style>
-{{ partial "header.html" . }}
 <h2 class="posts-title">📚 ENGLISH POSTS</h2>
 <ul class="post">
     {{ range .Data.Pages }} {{ if eq .Type "en"}}

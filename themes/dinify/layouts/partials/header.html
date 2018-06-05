@@ -3,8 +3,8 @@
 <head>
     <title>{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}{{ if eq $url "/" }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
     <meta charset="UTF-8">
-    <meta name="description" content="jinhduong's blog">
-    <meta name="keywords" content="jinhduong blog, jinhduong, javascript, javascript tips, angular, webpack, webpack cho nguoi moi bat dau, jinhduong.github.io">
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    <meta name="keywords" content="{{if .IsHome}}{{ $.Site.Params.keywords }}{{else}}{{.Keywords}}{{end}}">
     <meta name="author" content="jinhduong">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://jinhduong.com/index.html"/>

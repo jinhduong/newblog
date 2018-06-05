@@ -3,6 +3,11 @@ title: "Mã sạch - và con đường trở thành 1 devloper tốt hơn (1)"
 date: 2016-10-24T12:06:48+08:00
 tags:
     - clean code
+keywords:
+  - clean code,
+  - ma sach
+description:
+  - clean code - ma sach, con duong tro thanh better developer
 ---
 
 ![Imgur](http://i.imgur.com/ig8F5Ep.png)

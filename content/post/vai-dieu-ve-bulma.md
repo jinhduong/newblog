@@ -5,6 +5,9 @@ tags:
 -   bulma
 -   scss
 -   css
+keywords:
+  - bulma
+description: nhung ghi chu khi lam viec voi bulma
 ---
 
 # Giới thiệu

@@ -7,6 +7,11 @@ tags:
 author: Dinh Duong
 excerpt: true
 date: 2018-05-03 10:55:29
+keywords:
+  - typescript
+  - linq
+  - linq-fns
+description: viet mot thu vien linq bang javascript
 ---
 
 

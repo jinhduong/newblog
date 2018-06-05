@@ -1,7 +1,14 @@
 ---
 title: "Serverless đơn giản với Webtask"
+categories:
+    - webtask
+    - serverless
+description: serverless don gian voi webtask
 date: 2018-05-28T22:48:30+08:00
 tasg:
+-   webtask
+-   serverless
+keywords:
 -   webtask
 -   serverless
 ---

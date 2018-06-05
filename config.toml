@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "jinhduong's blog - you keep the sunshine, save me the rain"
 theme = "dinify"
 
+[author]
+  name = "jinhduong"
+  homepage = "https://www.jinhduong.com"
+
 [menu]
     [[menu.main]]
         identifier = "about"
@@ -30,6 +34,8 @@ theme = "dinify"
   twitter = "https://twitter.com/jinhduong"
   email = "0961020@gmail.com"
   quotes = true
+  description = "jinhduong's blog, chia se ve lap trinh, javascript, angular, webpack, .net"
+  keywords = "jinhduong blog, jinhduong's blog, javascript, javascript tips, nhung chia se linh tinh ve chuyen lap trinh, angular 2, angular 4, huong dan webpack, webpack, webpack cho nguoi moi bat dau, jinhduong.github.io"
 
 [taxonomies]
    tag = "tags"

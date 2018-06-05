@@ -5,8 +5,8 @@ tags:
   - webpack
 keywords:
   - webpack co ban
-description:
-  - webpack series - gioi thieu tu co ban den nang cao
+  - gioi thieu webpack
+description: webpack series - gioi thieu tu co ban den nang cao
 ---
 
 <!-- ![banner](https://i.imgur.com/iy9HXob.png) -->

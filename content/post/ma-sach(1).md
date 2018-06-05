@@ -6,8 +6,7 @@ tags:
 keywords:
   - clean code,
   - ma sach
-description:
-  - clean code - ma sach, con duong tro thanh better developer
+description: "clean code - ma sach, con duong tro thanh better developer"
 ---
 
 ![Imgur](http://i.imgur.com/ig8F5Ep.png)

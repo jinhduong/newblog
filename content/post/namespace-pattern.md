@@ -4,9 +4,9 @@ date:   2016-04-14 10:18:00
 tags:   
     - javascript
 keywords:
-  - javascript design pattern
-description:
-  - Javascript Design Pattern - Namespace and Revealing Module Pattern, Scope and Closure
+  - javascript 
+  - design pattern
+description: "avascript Design Pattern - Namespace and Revealing Module Pattern, Scope and Closure"
 ---
 
 # Giới thiệu

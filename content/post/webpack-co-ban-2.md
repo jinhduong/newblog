@@ -4,9 +4,9 @@ date:   2017-04-21 00:00:00
 tags: 
     - webpack
 keywords:
-  - webpack co ban - css splitting
-description:
-  - webpack series - css splitting
+  - webpack co ban
+  - css splitting
+description: webpack series - css splitting
 ---
 
 <!-- ![banner](https://i.imgur.com/iy9HXob.png) -->

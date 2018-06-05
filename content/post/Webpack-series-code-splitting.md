@@ -5,9 +5,9 @@ tags:
 author: Dinh Duong
 date: 2018-04-03 00:00:00
 keywords:
-  - webpack co ban - code splitting
-description:
-  - webpack series - code splitting
+  - webpack co ban
+  - code splitting
+description: webpack series - code splitting
 ---
 
 ![Webpack - (Source https://webpack.js.org/)](https://i.imgur.com/ZXiPBb9.png)

@@ -20,7 +20,7 @@ section.header a {
 }
 
 h1.name,
-h1.posts-title,
+h2.posts-title,
 h1.page-heading {
     font-size: 1.2em;
     font-weight: 600;

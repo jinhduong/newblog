@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<h1 class="posts-title">📚 LATEST POSTS</h1>
+<h2 class="posts-title">📚 LATEST POSTS</h2>
 <ul class="post">
     {{ range .Data.Pages }} {{ if eq .Type "post"}}
     <li>

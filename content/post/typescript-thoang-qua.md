@@ -4,8 +4,11 @@ tags:
   - typescript
   - javascript
 author: Dinh Duong
-excerpt: true
 date: 2018-04-22 22:49:24
+keywords:
+  - typescript
+  - gio thieu typescript
+description: gioi thieu typescrip
 ---
 
 

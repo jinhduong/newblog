@@ -3,6 +3,10 @@ title:  Webpack series -  giới thiệu từ cơ bản đến căng cơ :D
 date:   2017-04-20 00:00:00
 tags:   
   - webpack
+keywords:
+  - webpack co ban
+  - gioi thieu webpack
+description: webpack series - gioi thieu tu co ban den nang cao
 ---
 
 <!-- ![banner](https://i.imgur.com/iy9HXob.png) -->

@@ -5,6 +5,11 @@ tags:
     - angular
     - javascript
     - front-end framework
+keywords:
+  - zone
+  - angular
+  - zone.js
+description: zone in angular, zone trong angular 2, zone.js angular
 ---
 
 ![zone in angular](https://i.imgur.com/po98H7T.png)

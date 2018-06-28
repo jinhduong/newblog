@@ -8,6 +8,16 @@
     <img class="icon" src="/img/twitter.svg" alt="twitter" />
 </a>
 {{ end }}
+{{ if .Site.Params.linkedin }}
+<a href="{{ .Site.Params.linkedin }}" target="_blank" rel="noopener">
+    <img class="icon" src="/img/linkedin.svg" alt="linkedin" />
+</a>
+{{ end }}
+{{ if .Site.Params.stackoverflow }}
+<a href="{{ .Site.Params.stackoverflow }}" target="_blank" rel="noopener">
+    <img class="icon" src="/img/stack-overflow.svg" alt="stackoverflow" />
+</a>
+{{ end }}
 {{ if .Site.Params.email }}
 <a href="mailto:{{ .Site.Params.email }}" target="_blank" rel="noopener">
     <img class="icon" src="/img/email.svg" alt="email" />

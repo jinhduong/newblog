@@ -23,3 +23,8 @@
     <img class="icon" src="/img/email.svg" alt="email" />
 </a>
 {{ end }}
+{{ if .Site.Params.codfee }}
+<a href="mailto:{{ .Site.Params.codfee }}" target="_blank" rel="noopener">
+    <img class="icon" src="/img/codfee.svg" alt="codfee" />
+</a>
+{{ end }}

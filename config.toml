@@ -20,6 +20,10 @@ theme = "dinify"
         identifier = "til"
         name = "tils"
         url = "/til"
+    [[menu.main]]
+        identifier = "side-project"
+        name = "side projects"
+        url = "/side-projects"
     # [[menu.main]]
     #     identifier = "archives"
     #     name = "archives"

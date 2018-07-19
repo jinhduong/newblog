@@ -18,6 +18,11 @@
     <img class="icon" src="/img/stack-overflow.svg" alt="stackoverflow" />
 </a>
 {{ end }}
+{{ if .Site.Params.medium }}
+<a href="{{ .Site.Params.medium }}" target="_blank" rel="noopener">
+    <img class="icon" src="/img/medium.svg" alt="medium" />
+</a>
+{{ end }}
 {{ if .Site.Params.codfee }}
 <a href="{{ .Site.Params.codfee }}" target="_blank" rel="noopener">
     <img class="icon" src="/img/codfee.svg" alt="codfee" />

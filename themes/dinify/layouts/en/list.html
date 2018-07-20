@@ -13,7 +13,11 @@
                 {{ .Date.Format "Jan 2, 2006" }}
             </time>
         </span>
+        {{if .Params.elink}}
+            <a href="{{ .Params.elink }}">{{ .Title }}</a>
+        {{else}}
         <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{end}}
     </li>
     {{ end }} {{ end }}
 </ul>

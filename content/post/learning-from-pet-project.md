@@ -66,6 +66,8 @@ Do hạn chế băng thông cho client nên tốt nhất là dưới client chú
     
     > Ngoài những thứ *github* có, thì nó còn đi kèm rất nhiều thứ để chúng ta hoàn toàn có thể phát triển phần mềm từ đầu đến cuối như: **lưu trữ**, **pipeline build**, **triển khải** mà nó còn support **private registry** cho `Docker image`... và điều cuối cùng quan trọng là nó hỗ trợ chúng ta **private** dự án, cũng như **unlimited collaborators**, **10GB** per project. Hiện tại các dự án trên công ty mình cũng sử dụng gitlab đóa.   
 
+- Chuyện domain: domain thì chúng ta cứ GoDaddy và Namecheap và triển thôi, hai nhà cung cấp này có khuyển mãi tầm 1$ cho doamin .com cho người dùng mới trong năm đầu tiền, hoặc các bạn cũng có thể mua những domain giá khoảng 1$ với đuổi như `.xyz`, `.online`... gì đấy, còn muốn hàng free thì cứ https://www.freenom.com.
+
 **Còn gì nữa không nhỉ??** Chắc không còn gì nữa nhỉ, ngoài các implement chi tiết hơn trong các phần tương ứng. Tổng kết lại stack của chúng ta nào:
 
 - **Server side rendering** only
@@ -85,3 +87,6 @@ Tới đây bài cũng khá dài, viết một lần chắc draft miết luôn q
 > Tốt nhất trong tất cả các lựa chọn chúng ta nên dành thêm thời gian tìm hiểu thêm trên internet, nếu có những đồng nghiệp hay tiền bối có kinh nghiệm hơn đừng ngại hỏi họ nhé. Không ngại hỏi thì chúng ta cũng đừng ngại cám ơn nhé.
 
 Hẹn gặp ở chap tiếp nhóe.
+
+Ah quên, áp dụng một mớ kiến thức đồ sộ như trên chúng ta sẽ có sản phẩm như thế này nhé các bạn:
+https://www.toiletexpress.online/ ^^

@@ -30,13 +30,13 @@ Xong phần requirement, bước kế tiếp là đến phần lựa chọn stac
 
 # Lựa chọn stack công nghệ
 ![1 phần trong stack của AirBnB](https://i.imgur.com/ZuPIua9.png)
+
 - **Server và client:**
 Do hạn chế băng thông cho client nên tốt nhất là dưới client chúng ta không nên sử dụng bất cứ một thứ gì cả, client chỉ việc lấy html và render ra là xong, tốt nhất là loại bỏ luôn file javascript. 
+
 - **Backend technology:** Nhanh gọn lẹ tốc độ, ăn lièn nhất có lẽ `Nodejs` là một sự lựa chọn đúng đắn nhất, khởi tạo nhanh, code nhanh, cũng như có rất nhiều host/ platform hỗ trợ việc deployment gọn lẹ như Heroku chẳn hạn. Còn về `framework web` với nodejs thì có lẽ `expressjs` là phổ thông và cũng là một framework tương đối đã trưởng thành.
- 
-    > Kèm đó là `Typescript` ngoài các lợi ích của nó thì nó giúp code chúng ta tường mình hơn với việc hỗ trợ `kiểu dữ liệu`. Đương nhiên không công nghệ nào là thần thánh và hoàn toán không có khuyết điểm, `Typescript` cũng vậy nhưng với môi trường server thì nó ít bị tác dụng phụ hơn so với *client(SPA)* app.
-    
-    > Mình không chuyên backend với nodejs, nên mình sẽ chọn những gì mình thấy là dễ dàng nhất (với bản thân mình, hoặc với đa số mọi người) để tiếp cận.
+
+    > Kèm đó là `Typescript` ngoài các lợi ích của nó thì nó giúp code chúng ta tường mình hơn với việc hỗ trợ `kiểu dữ liệu`. Đương nhiên không công nghệ nào là thần thánh và hoàn toán không có khuyết điểm, `Typescript` cũng vậy nhưng với môi trường server thì nó ít bị tác dụng phụ hơn so với *client(SPA)* app. Mình không chuyên backend với nodejs, nên mình sẽ chọn những gì mình thấy là dễ dàng nhất (với bản thân mình, hoặc với đa số mọi người) để tiếp cận.
 
 - **Web server:** Nginx, một web server sinh sau đẻ muộn nhưng hiệu năng và độ thân thiện, với mình là khá hoàn thiện ngoài những bản plus thêm tính phí :D
 

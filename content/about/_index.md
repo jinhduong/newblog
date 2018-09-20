@@ -2,8 +2,11 @@
 title: "About"
 date: 2018-05-07T21:25:04+08:00
 ---
+Hi guys, I'm **Dinh Duong**, I'm a full-stack engineer and working at Malaysia. I'm a crazy fan of football (especially is *Mesut Özil* who play very smart but quite lazy), history and then is programming. 
 
-I'm Dĩnh, a software developer who likes ⚽ 🎮 ☕ 🍺 then finally is coding 💻 and I'm working at Malaysia. If not become a software developer I don't know what I am, so... I feel myself quite lucky. 😅. I like researching, writing, sharing and make miscellaneous. I'm currently interesting in `cloud computing/ services`, `golang`, `typescript` and improve my `algorithm`.
 <br>
-Thanks for reading my blog.
+ Now I'm currently interesting about `cloud` computing/ services, `containerization` philosophy with `Docker`, and then is `golang`.
+
+ <br>
+`Thanks` for reading my blog.
 

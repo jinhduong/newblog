@@ -9,6 +9,7 @@ tags:
     - docker
     - nginx
     - linux
+description: Học và cải thiện kiến thức từ các dự án cá nhân(pet project)
 ---
 
 ![People —Man Holding Goose Free Photo —By Ryan McGuire](https://gratisography.com/thumbnails/gratisography-427-thumbnail.jpg)

@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    {{ partial "seo_schema" . }}
     <title>{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}{{ if eq $url "/" }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
     <meta charset="UTF-8">
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />

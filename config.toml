@@ -49,3 +49,8 @@ theme = "dinify"
    tag = "tags"
    category = "categories"
 
+enableRobotsTXT = true
+canonifyURLs = true
+[permalinks]
+    post = "/blog/:title/"
+

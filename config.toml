@@ -51,6 +51,4 @@ theme = "dinify"
 
 enableRobotsTXT = true
 canonifyURLs = true
-[permalinks]
-    post = "/blog/:title/"
 

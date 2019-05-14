@@ -1,15 +1,180 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>You keep the sunshine, save me the rain</title>
+    <title>jinhduong&#39;s blog - you keep the sunshine, save me the rain</title>
     <link>https://www.jinhduong.com/</link>
-    <description>Recent content on You keep the sunshine, save me the rain</description>
+    <description>Recent content on jinhduong&#39;s blog - you keep the sunshine, save me the rain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 May 2018 10:55:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2019 11:29:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.jinhduong.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Angular HttpClient with catchError, rxjs6</title>
+      <link>https://www.jinhduong.com/til/angular-rxjs-catcherror/</link>
+      <pubDate>Thu, 09 May 2019 11:29:00 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/angular-rxjs-catcherror/</guid>
+      <description>Scenario Assuming that we get the banks from payment gateway&amp;rsquo;s third party but sometimes their services got down, but we still need to support that still show the list of banks to end user create a manually case until the service up again.
+getBanks(): Observable&amp;lt;CurlecBanksModel&amp;gt; { const _cacheName = &amp;quot;banks&amp;quot;; // Cache if (this._cache.has(_cacheName)) { return of(this._cache.get(_cacheName)); // Normally scenario } else { return this._http .post( `https://shit-service/get-banks`, null ) .</description>
+    </item>
+    
+    <item>
+      <title>Học và cải thiện kiến thức từ các dự án cá nhân(pet project)</title>
+      <link>https://www.jinhduong.com/post/learning-from-pet-project/</link>
+      <pubDate>Sun, 16 Sep 2018 18:40:08 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/learning-from-pet-project/</guid>
+      <description>Cách tốt nhất để học bất cứ thứ gì là chúng ta dự định làm ra cái gì linh tinh để rồi trong quá trình làm ra sản phẩm chúng ta nhận ra những thứ chúng ta còn mơ hồ và lấn cấn, sau đó thì chỉ việc tìm hiểu tập trung những thứ này thôi. Đó cũng là một cách học những thứ mới mẻ, hoặc tìm hiểu những công nghệ xu hướng, mà người ta hay gọi là đú trend đấy :D</description>
+    </item>
+    
+    <item>
+      <title>How to deploy multi environment with Asp.net Core and Docker</title>
+      <link>https://www.jinhduong.com/en/how-to-deploy-multi-environment-with-asp.net-core-and-docker/</link>
+      <pubDate>Fri, 20 Jul 2018 10:27:45 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/en/how-to-deploy-multi-environment-with-asp.net-core-and-docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deploy Multi Environments With Angular Nginx and Docker</title>
+      <link>https://www.jinhduong.com/en/deploy-multi-environments-with-angular-nginx-and-docker/</link>
+      <pubDate>Fri, 20 Jul 2018 10:07:37 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/en/deploy-multi-environments-with-angular-nginx-and-docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simple Linux Commands</title>
+      <link>https://www.jinhduong.com/til/simple-linux-commands/</link>
+      <pubDate>Fri, 06 Jul 2018 15:51:32 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/simple-linux-commands/</guid>
+      <description>Simple linux commands Nginx Management
+sudo service nginx start sudo service nginx stop sudo service nginx restart  Install
+sudo -s nginx=stable # use nginx=development for latest development version add-apt-repository ppa:nginx/$nginx apt-get update apt-get install nginx  Point nginx to localy port, path : /etc/nginx/sites-available/default
+server { listen 80 default_server; server_name example.com *.example.com; location / { proxy_pass http://localhost:5000; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection keep-alive; proxy_set_header Host $host; proxy_cache_bypass $http_upgrade; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; } }  Service definition Add service definition file:</description>
+    </item>
+    
+    <item>
+      <title>Deploy Heroku nằm trong một sub-folder của một git repo</title>
+      <link>https://www.jinhduong.com/post/heroku-subtree/</link>
+      <pubDate>Mon, 18 Jun 2018 12:12:22 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/heroku-subtree/</guid>
+      <description>Scenario Trong một dựa án lớn, với nhiều ứng dụng con và chúng nằm chung trong một git repo và một trong số đó sử dụng và deploy lên Heroku. Làm cách nào để deploy heroku trong trường hợp này?
+Giả sử project structure như này:
+Dự án có 2 project là homepage và heroku-app (deploy lên heroku)
+-src/ --homepage/ ---index.html ---... --heroku-app/ ---package.json ---index.js  Chúng ta không thể deploy lên heroku từ nhánh master của repo như bình thường được vì ngoài root chả có data gì để heroku xách định và build project của chúng ta cả.</description>
+    </item>
+    
+    <item>
+      <title>@Content Trong Scss</title>
+      <link>https://www.jinhduong.com/til/content-trong-scss/</link>
+      <pubDate>Fri, 08 Jun 2018 15:48:58 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/content-trong-scss/</guid>
+      <description>Định nghĩa Which allows us to pass a content block into a mixin
+Sử dụng khi chúng ta muốn đưa tất các định nghĩa trong 1 content vào một mixin nào đó.
+@mixin apply-to-ie6-only { * html { @content } } @include apply-to-ie6-only { #logo { background-image: url(/logo.gif); } }  Ở đây chúng ta sẽ đưa content vào mixin có tên apply-to-ie6-only. Nó sẽ được biên dịch và nằm hết trong tag html.</description>
+    </item>
+    
+    <item>
+      <title>Serverless đơn giản với Webtask</title>
+      <link>https://www.jinhduong.com/post/serverless-voi-webtask/</link>
+      <pubDate>Mon, 28 May 2018 22:48:30 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/serverless-voi-webtask/</guid>
+      <description>Lý do Blog mình hiện tại có chức năng là hiển thị một dev quotes random khi đọc một bài bất kì. Nhìn lên top của bài này chắc là bạn sẽ thấy 😅
+Lý do là lúc trước chỉ mỗi chức năng nhỏ xíu này nhưng mình lại host nó trên tài khoản heroku của mềnh và tình trạng xảy ra là free dyno hours của account bị vượt mức (heroku cho free 1000 hours 1 tháng).</description>
+    </item>
+    
+    <item>
+      <title>Typescript Get Set</title>
+      <link>https://www.jinhduong.com/til/typescript-get-set/</link>
+      <pubDate>Mon, 28 May 2018 16:26:07 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/typescript-get-set/</guid>
+      <description>export class Animal { private _name; get name() { return `It&#39;s name is ${this._name}`; } set name(name: string) { // DOSIME THING if (this.preSetName()) this._name = name; throw new Error(&#39;You cannot set this property, ok mén&#39;) } private preSetName(): boolean { const isCallToApiandHaveAccessToSet = http.get(...) // Call from api return isCallToApiandHaveAccessToSet } }  </description>
+    </item>
+    
+    <item>
+      <title>Những ghi chú khi làm việc thử với Bulma (1)</title>
+      <link>https://www.jinhduong.com/post/vai-dieu-ve-bulma/</link>
+      <pubDate>Tue, 22 May 2018 21:11:04 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/vai-dieu-ve-bulma/</guid>
+      <description>Giới thiệu Bulma là một css framework, được viết bằng sass dựa vào flexbox, sử dụng css-grid for reponsive và được thiết kế cho mobile first. Nó là một modular css fw, có nghĩa bạn có thể sử dụng đơn lẻ các chức năng của nó như columns, button, form&amp;hellip;
+Tổng quan Cài đặt npm
+npm install bulma  or CDN
+https://cdnjs.com/libraries/bulma  Modularity  Bulma chứa 39 file .</description>
+    </item>
+    
+    <item>
+      <title>Zone in Angular và các thiết kế ở front-end framework</title>
+      <link>https://www.jinhduong.com/post/zone-in-angular/</link>
+      <pubDate>Fri, 18 May 2018 17:27:31 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/zone-in-angular/</guid>
+      <description>Chất vất bản thân Khi làm việc với Angular, bạn có bao giờ hỏi là =&amp;gt; thế beep nào mà mình phải cần xài thằng zone.js để chạy một ứng dụng Angular? Why why why? Mịa nó chiếm space của ứng dụng bố mà chả hiểu cần nó làm cái méo gì? Có thấy React hoặc Vue có cần cái dependencies nào để chạy chung đâu hè.
+Nói tới đây chắc fan của Vue và React sẽ nháo nhào chê bai Angular là: đang mệt, Angular như shệt, qua học React hay Vue gì đê bác ưiiiii !</description>
+    </item>
+    
+    <item>
+      <title>Git Stash</title>
+      <link>https://www.jinhduong.com/til/git-stash/</link>
+      <pubDate>Thu, 17 May 2018 12:17:36 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/git-stash/</guid>
+      <description>Đôi khi đang làm dở gì đó, các bạn muốn lựu tạm lại (chưa commit) và chuyển qua branch khác để làm hoặc đơn giản là lưu lại những gì đang làm và back lại nhánh master đang stable để làm task khác. Nếu có, thì may mắn Git hỗ trợ chúng chung lệnh stash
+Bash  Tạo
+git stash save # or just &amp;quot;git stash&amp;quot;   List git git stash list stash@{0}: WIP on &amp;lt;branch-name&amp;gt;: &amp;lt;lastest commit&amp;gt; stash@{1}: WIP on &amp;lt;branch-name&amp;gt;: &amp;lt;lastest commit&amp;gt; stash@{2}: WIP on &amp;lt;branch-name&amp;gt;: &amp;lt;lastest commit&amp;gt;   Xem nội dung stash</description>
+    </item>
+    
+    <item>
+      <title>Trigger center mouse để download file</title>
+      <link>https://www.jinhduong.com/til/center-mouse/</link>
+      <pubDate>Thu, 17 May 2018 11:50:41 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/center-mouse/</guid>
+      <description>Chúng ta đã biết các file như hình ảnh .png .jpg&amp;hellip; hoặc .pdf&amp;hellip; thì browser sẽ tự động preview cho chúng ta, không nhưng các file khác là khi mởi new tab nó sẽ tự động download về như .xlms .doc .docs.
+Vậy thì làm sao để download?
+Browser có 1 chức năng là khi chúng ta nhấp center/middle mouse thì nó sẽ down file đó về chứ không priview file đó =&amp;gt; Việc của chúng ta là giả lập lại thao tác mouse chân giữa.</description>
+    </item>
+    
+    <item>
+      <title>Cách đơn giản để merge qua nhánh master</title>
+      <link>https://www.jinhduong.com/til/cach-don-gian-merge-to-master/</link>
+      <pubDate>Wed, 16 May 2018 15:39:17 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/cach-don-gian-merge-to-master/</guid>
+      <description>Chúng ta chuyển về nhánh master trước, sau đó merge nhánh feature, sau đó push lên lại
+git checkout master git pull origin master git merge feature git push origin master  Thanks.</description>
+    </item>
+    
+    <item>
+      <title>Sử dụng enum cho các kiểu dữ liệu type</title>
+      <link>https://www.jinhduong.com/til/su-dung-enum-cho-kieu-du-lieu-type/</link>
+      <pubDate>Tue, 15 May 2018 16:19:16 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/su-dung-enum-cho-kieu-du-lieu-type/</guid>
+      <description>Một cách đơn giản để code chúng ta dễ đọc hơn. Giả sử chúng ta có bảng product với filed type kiểu int định nghĩa loại của sản phẩm.
+// product table 1 - &amp;quot;tivi&amp;quot; 2 - &amp;quot;tu lanh&amp;quot; 3 - &amp;quot;may lanh&amp;quot;  Thay vì
+// Khi thêm _productRepo.Add(new Product { Type = 1 // Tivi }) // Khi update var pd = _productRepo.FindOne(x =&amp;gt; x.RowId == ...); pd.Type = 1; // Khi query _productRepo.</description>
+    </item>
+    
+    <item>
+      <title>Sử dụng partial class để tạo ra các extention value</title>
+      <link>https://www.jinhduong.com/til/su-dung-partial-class-tao-extendion-value/</link>
+      <pubDate>Tue, 15 May 2018 14:46:41 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/su-dung-partial-class-tao-extendion-value/</guid>
+      <description>Hoàn cảnh Thường thì dữ liệu lấy từ database và trả về dưới client sẽ ít nhiều khác nhau, bởi vì một vài dữ liệu trong database như khóa chính key, row_id và các field nhạy cảm sẽ được ignore khi đưa xuống client và cũng như frond-end cũng cần các trường dữ liệu có liên quan đến những trường được ignore. Trong OOP đó là có thể gọi đây là encapsulation.</description>
+    </item>
     
     <item>
       <title>Viết một thư viện bằng javascript giống LINQ như thế nào?</title>
@@ -29,9 +194,7 @@ Thật sự tới hiện tại nó chỉ tương đối là đủ dùng, với b
       <guid>https://www.jinhduong.com/post/typescript-thoang-qua/</guid>
       <description>&lt;!-- ![typescript-homepage (Source: (https://www.typescriptlang.org)](https://i.imgur.com/TrmRvfu.png) --&gt;
 
-&lt;p&gt;Khi mình viết bài này rõ ràng thì &lt;code&gt;TypeScript&lt;/code&gt; không còn là một thư viện đang nổi lên nữa. mà nó đã là thư viện đứng đầu về &lt;code&gt;strong typing&lt;/code&gt; cho &lt;code&gt;JavaScript&lt;/code&gt;. Hiện giờ nó và &lt;code&gt;Flow&lt;/code&gt; của Facebook là 2 thư viện nổi tiếng nhất về strong typing cho Javascript. Nhưng có lẽ Microsoft với kinh nghiệm cùng ngôn ngữ &amp;lsquo;C#&amp;rsquo;,cái ngôn ngữ mà với mình nó là một ngôn ngữ &lt;strong&gt;đẹp, mạnh mẽ và khá chặt chẽ&lt;/strong&gt; đã đem lại thành công cho &lt;code&gt;TypeScript&lt;/code&gt;. Hiện nay rất nhiều thư viện đã và đang được viết mới hoặc viết lại bằng &lt;code&gt;TypeScript&lt;/code&gt; như &lt;code&gt;Angular&lt;/code&gt;, &lt;code&gt;Vue 3&lt;/code&gt;, &lt;code&gt;Aurelia&lt;/code&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Khi mình viết bài này rõ ràng thì &lt;code&gt;TypeScript&lt;/code&gt; không còn là một thư viện đang nổi lên nữa. mà nó đã là thư viện đứng đầu về &lt;code&gt;strong typing&lt;/code&gt; cho &lt;code&gt;JavaScript&lt;/code&gt;. Hiện giờ nó và &lt;code&gt;Flow&lt;/code&gt; của Facebook là 2 thư viện nổi tiếng nhất về strong typing cho Javascript. Nhưng có lẽ Microsoft với kinh nghiệm cùng ngôn ngữ &amp;lsquo;C#&amp;rsquo;,cái ngôn ngữ mà với mình nó là một ngôn ngữ &lt;strong&gt;đẹp, mạnh mẽ và khá chặt chẽ&lt;/strong&gt; đã đem lại thành công cho &lt;code&gt;TypeScript&lt;/code&gt;. Hiện nay rất nhiều thư viện đã và đang được viết mới hoặc viết lại bằng &lt;code&gt;TypeScript&lt;/code&gt; như &lt;code&gt;Angular&lt;/code&gt;, &lt;code&gt;Vue 3&lt;/code&gt;, &lt;code&gt;Aurelia&lt;/code&gt;&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,9 +203,7 @@ Thật sự tới hiện tại nó chỉ tương đối là đủ dùng, với b
       <pubDate>Tue, 17 Apr 2018 10:46:56 +0000</pubDate>
       
       <guid>https://www.jinhduong.com/post/sidebar-in-front-end-side/</guid>
-      <description>&lt;p&gt;Dạo gần đây đa phần các dự án mới đều được viết bằng các framework SPA như React Vue hoặc là Angular, và một số thư viện khác nữa&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Dạo gần đây đa phần các dự án mới đều được viết bằng các framework SPA như React Vue hoặc là Angular, và một số thư viện khác nữa&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -151,6 +312,15 @@ Sử dụng Anonymously scope cho những đoạn code chỉ chạy một lần 
       <guid>https://www.jinhduong.com/post/angular2-comunication/</guid>
       <description>Hiện tại mình đang làm một dự án về angular2 nên thành ra mình cũng muốn làm một chuỗi bài về angular2 cho những bạn nào đang muốn tìm hiểu về công nghệ này.
 Biết là bài này có thể sẽ chỉ dành cho những bạn ít nhiều đã làm về angular2 nhưng do hôm nay cũng làm rồi đụng đến nên mình chọn luôn chủ để này để bắt đầu luôn cho nóng :)</description>
+    </item>
+    
+    <item>
+      <title>Mã sạch - và con đường trở thành 1 devloper tốt hơn (1)</title>
+      <link>https://www.jinhduong.com/post/ma-sach1/</link>
+      <pubDate>Mon, 24 Oct 2016 12:06:48 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/post/ma-sach1/</guid>
+      <description>Sáng thứ hai mọi người đi làm còn mình thì đi coffee một mình :D. Đang thất nghiệp ahiuhiu. Với một thằng coder nói cho đúng được ngồi mình nhâm nhi ly cà phê nhìn lại cuộc sống cũng là tuyệt vời rồi. Nhất là có thời gian suy nghĩ viết ba cái thứ linh tinh cho vui vẻ :). Nhớ lại câu thằng bạn nói: &amp;ldquo;Trong bóng đá có được mấy người ung dung tự tại đâu&amp;rdquo; nên nhiều khi muốn ung dung đâu phải dễ :D.</description>
     </item>
     
     <item>

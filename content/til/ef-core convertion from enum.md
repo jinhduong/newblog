@@ -4,7 +4,6 @@ date: 2019-05-14T23:14:33+08:00
 draft: false
 tags:
     - efcore
-    - c#
 ---
 
 Refer: https://docs.microsoft.com/en-us/ef/core/modeling/value-conversions

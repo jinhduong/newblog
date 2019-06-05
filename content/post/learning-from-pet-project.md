@@ -12,7 +12,7 @@ tags:
 description: Học và cải thiện kiến thức từ các dự án cá nhân(pet project)
 ---
 
-![People —Man Holding Goose Free Photo —By Ryan McGuire](https://gratisography.com/thumbnails/gratisography-427-thumbnail.jpg)
+![](https://i.imgur.com/cwayxZD.jpg)
 
 Cách tốt nhất để học bất cứ thứ gì là chúng ta dự định làm ra cái gì linh tinh để rồi trong quá trình làm ra sản phẩm chúng ta nhận ra những thứ chúng ta còn `mơ hồ và lấn cấn`, sau đó thì chỉ việc tìm hiểu tập trung những thứ này thôi. Đó cũng là một cách học những thứ mới mẻ, hoặc tìm hiểu những công nghệ xu hướng, mà người ta hay gọi là đú trend đấy :D
 
@@ -30,7 +30,7 @@ Từ những lý do ở trên của bản thân, mình quyết định sẽ làm
 Xong phần requirement, bước kế tiếp là đến phần lựa chọn stack công nghệ.
 
 # Lựa chọn stack công nghệ
-![1 phần trong stack của AirBnB](https://i.imgur.com/ZuPIua9.png)
+![1 phần trong stack của AirBnB](https://i.imgur.com/85kv0tg.png)
 
 - **Server và client:**
 Do hạn chế băng thông cho client nên tốt nhất là dưới client chúng ta không nên sử dụng bất cứ một thứ gì cả, client chỉ việc lấy html và render ra là xong, tốt nhất là loại bỏ luôn file javascript. 

@@ -10,7 +10,7 @@ Refer: https://docs.microsoft.com/en-us/ef/core/modeling/value-conversions
 
 In fact, we can refer to the above docs. But shortly should be like above, because convert from enum to number was the most use case that we always faced.
 
-``` c#
+``` csharp
 public enum OwnerType
     {
         Individual = 0,

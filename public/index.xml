@@ -6,10 +6,21 @@
     <description>Recent content on jinhduong&#39;s blog - you keep the sunshine, save me the rain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 May 2019 11:29:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2019 23:14:33 +0800</lastBuildDate>
     
 	<atom:link href="https://www.jinhduong.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EF-Core Convertion From Enum</title>
+      <link>https://www.jinhduong.com/til/ef-core-convertion-from-enum/</link>
+      <pubDate>Tue, 14 May 2019 23:14:33 +0800</pubDate>
+      
+      <guid>https://www.jinhduong.com/til/ef-core-convertion-from-enum/</guid>
+      <description>Refer: https://docs.microsoft.com/en-us/ef/core/modeling/value-conversions
+In fact, we can refer to the above docs. But shortly should be like above, because convert from enum to number was the most use case that we always faced.
+public enum OwnerType { Individual = 0, Operator = 1, Developer = 2 } var ownerTypeConverter = new EnumToNumberConverter&amp;lt;OwnerType, int&amp;gt;(); // At EFCore context modelBuilder.Entity&amp;lt;Owner&amp;gt;(entity =&amp;gt; { //... entity.Property(e =&amp;gt; e.OwnerType) .HasConversion(ownerTypeConverter) .HasDefaultValueSql(&amp;quot;((0))&amp;quot;); }  </description>
+    </item>
     
     <item>
       <title>Angular HttpClient with catchError, rxjs6</title>

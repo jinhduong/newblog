@@ -3,24 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.jinhduong.com/til/angular-rxjs-catcherror/</loc>
-    <lastmod>2019-05-09T11:29:00+08:00</lastmod>
+    <loc>https://www.jinhduong.com/til/ef-core-convertion-from-enum/</loc>
+    <lastmod>2019-05-14T23:14:33+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jinhduong.com/tags/</loc>
-    <lastmod>2019-05-09T11:29:00+08:00</lastmod>
+    <lastmod>2019-05-14T23:14:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.jinhduong.com/tags/angular/</loc>
-    <lastmod>2019-05-09T11:29:00+08:00</lastmod>
+    <loc>https://www.jinhduong.com/tags/efcore/</loc>
+    <lastmod>2019-05-14T23:14:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.jinhduong.com/</loc>
+    <lastmod>2019-05-14T23:14:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/til/angular-rxjs-catcherror/</loc>
+    <lastmod>2019-05-09T11:29:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jinhduong.com/tags/angular/</loc>
     <lastmod>2019-05-09T11:29:00+08:00</lastmod>
     <priority>0</priority>
   </url>

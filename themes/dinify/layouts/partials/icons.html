@@ -33,4 +33,9 @@
     <img class="icon" src="/img/email.svg" alt="email" />
 </a>
 {{ end }}
+{{ if .Site.Params.cv }}
+<a href="{{ .Site.Params.cv }}" target="_blank" rel="noopener">
+    <img class="icon" src="/img/approved.svg" alt="email" />
+</a>
+{{ end }}
 

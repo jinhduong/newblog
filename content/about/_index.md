@@ -7,6 +7,7 @@ Hi, Dinh here and currently working in Malaysia besides the passion of software,
 <br />
 My current interests are cloud, containerization, infrastructure, reliability engineering, and especially golang language.
 
+<br />
 Thanks for reading my blog, mans.
 
 
